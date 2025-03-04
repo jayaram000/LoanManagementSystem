@@ -111,9 +111,9 @@ DATABASES["default"] = dj_database_url.parse(databse_url)
 DATABASES = {
     "default": {
         "ENGINE": "django.db.backends.postgresql",
-        "NAME": "Loandb",
+        "NAME": "your_db_name",
         "USER":"postgres",
-        'PASSWORD': '1234',
+        'PASSWORD': 'your db password',
         'HOST': 'localhost',
         'PORT': '5432',
     }
