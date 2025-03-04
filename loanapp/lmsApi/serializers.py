@@ -11,7 +11,7 @@ class LoanSerializer(serializers.ModelSerializer):
     class Meta:
         model = Loan
         fields =  ['loan_id', 'amount', 'tenure', 'interest_rate', 'monthly_installment',
-                  'total_interest', 'total_amount', 'payment_schedule','status']
+                  'total_interest', 'total_amount', 'payment_schedule','status','created_at']
 
 
     def get_monthly_installment(self,obj):

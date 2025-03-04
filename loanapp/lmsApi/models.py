@@ -10,7 +10,7 @@ def validate_amount(value):
         raise ValidationError("Amount must be between 1000 and 100000")
 
 def validate_tenure(value):
-    if value < 3 or value > 12:
+    if not isinstance(value, int) or value < 3 or value > 24:
         raise ValidationError("Tenure must be between 3 and 12")
 
 class Loan(models.Model):
