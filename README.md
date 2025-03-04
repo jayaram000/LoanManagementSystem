@@ -47,7 +47,9 @@ python manage.py runserver
 Method	Endpoint	Description
 
 POST	/register/	Register a new user
+
 POST	/verify-otp/	Otp-verification
+
 POST	/login/	Login & get JWT token
 
 Loans
@@ -55,8 +57,11 @@ Loans
 Method	Endpoint	Description
 
 POST	/loans/	Create a new loan
+
 GET	/listloans/	List user loans
+
 POST	loans/<loan_id>/foreclose/	Foreclose a loan
 
 GET	/loans/	 Admin - View all loans based on the user
+
 DELETE	/loans/<loan_id>//delete/	Admin - Delete loan
