@@ -41,7 +41,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles', 'rest_framework','lmsApi',"rest_framework_simplejwt",
-    "corsheaders",
+    "corsheaders",'userauth','rest_framework_simplejwt.token_blacklist'
 ]
 
 MIDDLEWARE = [
@@ -81,8 +81,14 @@ TEMPLATES = [
 ]
 
 SIMPLE_JWT = {
-    "ACCESS_TOKEN_LIFETIME": timedelta(days=1),
+    'ACCESS_TOKEN_LIFETIME': timedelta(days=1),
+    'REFRESH_TOKEN_LIFETIME': timedelta(days=7),
+    'ROTATE_REFRESH_TOKENS': True,  # Generates a new refresh token on each use
+    'BLACKLIST_AFTER_ROTATION': True,  # Prevents old refresh tokens from being reused
+    'AUTH_HEADER_TYPES': ('Bearer',),
+    'AUTH_TOKEN_CLASSES': ('rest_framework_simplejwt.tokens.AccessToken', 'rest_framework_simplejwt.tokens.RefreshToken'),
 }
+
 
 WSGI_APPLICATION = 'loanapp.wsgi.application'
 
@@ -99,7 +105,7 @@ WSGI_APPLICATION = 'loanapp.wsgi.application'
 DATABASES = {
     "default": {
         "ENGINE": "django.db.backends.postgresql",
-        "NAME": "Lmsdb",
+        "NAME": "Loandb",
         "USER":"postgres",
         'PASSWORD': '1234',
         'HOST': 'localhost',
@@ -142,6 +148,7 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/5.1/howto/static-files/
 
 STATIC_URL = 'static/'
+AUTH_USER_MODEL = 'userauth.CustomUser'
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field
