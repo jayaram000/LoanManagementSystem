@@ -10,14 +10,14 @@ app.use(bodyParser.json());
 
 const transporter = nodemailer.createTransport({
     service: "gmail",
-    auth: { user: "jayaram.sj70@gmail.com", pass: 'pxql nueq capv micp' },
+    auth: { user: "Sending admin email", pass: 'add your email app password' },
 });
 
 app.post("/send-otp", async (req, res) => {
     const { email } = req.body;
     const otp = Math.floor(100000 + Math.random() * 900000).toString();
 
-    await transporter.sendMail({ from: "jayaram.sj70@gmail.com", to: email, subject: "Your OTP", text: `Your OTP is: ${otp}` });
+    await transporter.sendMail({ from: "Sending admin email", to: email, subject: "Your OTP", text: `Your OTP is: ${otp}` });
 
     res.status(200).json({ otp, message: "OTP sent" });
 });
