@@ -16,11 +16,13 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path,include
-from .views import LoanListView,LoanCreateView,LoanForeclosureView
+from .views import LoanListView,LoanCreateView,LoanForeclosureView,LoanDeleteView
 
 urlpatterns = [
     path('loans/',LoanCreateView.as_view(),name="add_loan"),
     path('listloans/',LoanListView.as_view(),name="list_loans"),
-    path('loans/<str:loan_id>/foreclose',LoanForeclosureView.as_view(),name="foreclose_loan")
+    path('loans/<str:loan_id>/foreclose',LoanForeclosureView.as_view(),name="foreclose_loan"),
+    path("loans/<str:loan_id>/delete/", LoanDeleteView.as_view(), name="loan_delete"),
+
 
 ]
