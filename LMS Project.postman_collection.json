@@ -1,0 +1,5656 @@
+{
+	"info": {
+		"_postman_id": "46a03842-a910-477d-abfd-53c5dd4e7c5a",
+		"name": "LMS Project",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "42820131"
+	},
+	"item": [
+		{
+			"name": "http://127.0.0.1:8000/api/loans/LOAN002/delete/",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQxMTc4MTk3LCJpYXQiOjE3NDEwOTE3OTcsImp0aSI6ImNjOGU0MWJiNTBlNDRlZWE5NDQyZjhhNDFjYzk4ZDgxIiwidXNlcl9pZCI6MTF9.LrAP0ii8jOzTm16Vrp-jrs-dykrQMgrwKTCUcMTxit0",
+							"type": "string"
+						}
+					]
+				},
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"disabled": true
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQwOTQ5Nzk5LCJpYXQiOjE3NDA4NjMzOTksImp0aSI6IjI5YzkwMjQwNGM5ZDRkMTE5ZTdiNTZkNGYyYzkxMmM1IiwidXNlcl9pZCI6OX0.qcxrA0ZKE0ocl2vHT-O8gh5u_JZJwpxtaKREh5dHsGM\"",
+						"type": "default",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\r\n\"otp\":911466,\r\n\"email\":\"jayasreea45@gmail.com\"\r\n\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/loans/LOAN002/delete/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"loans",
+						"LOAN002",
+						"delete",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:8000/api/loans/LOAN002/delete/",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQxMTc4MTk3LCJpYXQiOjE3NDEwOTE3OTcsImp0aSI6ImNjOGU0MWJiNTBlNDRlZWE5NDQyZjhhNDFjYzk4ZDgxIiwidXNlcl9pZCI6MTF9.LrAP0ii8jOzTm16Vrp-jrs-dykrQMgrwKTCUcMTxit0",
+							"type": "string"
+						}
+					]
+				},
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"disabled": true
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQwOTQ5Nzk5LCJpYXQiOjE3NDA4NjMzOTksImp0aSI6IjI5YzkwMjQwNGM5ZDRkMTE5ZTdiNTZkNGYyYzkxMmM1IiwidXNlcl9pZCI6OX0.qcxrA0ZKE0ocl2vHT-O8gh5u_JZJwpxtaKREh5dHsGM\"",
+						"type": "default",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\r\n\"otp\":911466,\r\n\"email\":\"jayasreea45@gmail.com\"\r\n\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/loans/LOAN002/delete/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"loans",
+						"LOAN002",
+						"delete",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:8000/api/loans/LOAN002/delete/",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQxMTc4MTk3LCJpYXQiOjE3NDEwOTE3OTcsImp0aSI6ImNjOGU0MWJiNTBlNDRlZWE5NDQyZjhhNDFjYzk4ZDgxIiwidXNlcl9pZCI6MTF9.LrAP0ii8jOzTm16Vrp-jrs-dykrQMgrwKTCUcMTxit0",
+							"type": "string"
+						}
+					]
+				},
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"disabled": true
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQwOTQ5Nzk5LCJpYXQiOjE3NDA4NjMzOTksImp0aSI6IjI5YzkwMjQwNGM5ZDRkMTE5ZTdiNTZkNGYyYzkxMmM1IiwidXNlcl9pZCI6OX0.qcxrA0ZKE0ocl2vHT-O8gh5u_JZJwpxtaKREh5dHsGM\"",
+						"type": "default",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\r\n\"otp\":911466,\r\n\"email\":\"jayasreea45@gmail.com\"\r\n\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/loans/LOAN002/delete/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"loans",
+						"LOAN002",
+						"delete",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:8000/api/loans/LOAN002/delete/",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQxMTc4MTk3LCJpYXQiOjE3NDEwOTE3OTcsImp0aSI6ImNjOGU0MWJiNTBlNDRlZWE5NDQyZjhhNDFjYzk4ZDgxIiwidXNlcl9pZCI6MTF9.LrAP0ii8jOzTm16Vrp-jrs-dykrQMgrwKTCUcMTxit0",
+							"type": "string"
+						}
+					]
+				},
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"disabled": true
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQwOTQ5Nzk5LCJpYXQiOjE3NDA4NjMzOTksImp0aSI6IjI5YzkwMjQwNGM5ZDRkMTE5ZTdiNTZkNGYyYzkxMmM1IiwidXNlcl9pZCI6OX0.qcxrA0ZKE0ocl2vHT-O8gh5u_JZJwpxtaKREh5dHsGM\"",
+						"type": "default",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\r\n\"otp\":911466,\r\n\"email\":\"jayasreea45@gmail.com\"\r\n\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/loans/LOAN002/delete/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"loans",
+						"LOAN002",
+						"delete",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:8000/api/loans/LOAN002/delete/",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQxMTc4MTk3LCJpYXQiOjE3NDEwOTE3OTcsImp0aSI6ImNjOGU0MWJiNTBlNDRlZWE5NDQyZjhhNDFjYzk4ZDgxIiwidXNlcl9pZCI6MTF9.LrAP0ii8jOzTm16Vrp-jrs-dykrQMgrwKTCUcMTxit0",
+							"type": "string"
+						}
+					]
+				},
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"disabled": true
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQwOTQ5Nzk5LCJpYXQiOjE3NDA4NjMzOTksImp0aSI6IjI5YzkwMjQwNGM5ZDRkMTE5ZTdiNTZkNGYyYzkxMmM1IiwidXNlcl9pZCI6OX0.qcxrA0ZKE0ocl2vHT-O8gh5u_JZJwpxtaKREh5dHsGM\"",
+						"type": "default",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\r\n\"otp\":911466,\r\n\"email\":\"jayasreea45@gmail.com\"\r\n\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/loans/LOAN002/delete/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"loans",
+						"LOAN002",
+						"delete",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:8000/api/loans/LOAN002/delete/",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQxMTc4MTk3LCJpYXQiOjE3NDEwOTE3OTcsImp0aSI6ImNjOGU0MWJiNTBlNDRlZWE5NDQyZjhhNDFjYzk4ZDgxIiwidXNlcl9pZCI6MTF9.LrAP0ii8jOzTm16Vrp-jrs-dykrQMgrwKTCUcMTxit0",
+							"type": "string"
+						}
+					]
+				},
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"disabled": true
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQwOTQ5Nzk5LCJpYXQiOjE3NDA4NjMzOTksImp0aSI6IjI5YzkwMjQwNGM5ZDRkMTE5ZTdiNTZkNGYyYzkxMmM1IiwidXNlcl9pZCI6OX0.qcxrA0ZKE0ocl2vHT-O8gh5u_JZJwpxtaKREh5dHsGM\"",
+						"type": "default",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\r\n\"otp\":911466,\r\n\"email\":\"jayasreea45@gmail.com\"\r\n\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/loans/LOAN002/delete/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"loans",
+						"LOAN002",
+						"delete",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:8000/api/listloans/",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQxMTc4MTk3LCJpYXQiOjE3NDEwOTE3OTcsImp0aSI6ImNjOGU0MWJiNTBlNDRlZWE5NDQyZjhhNDFjYzk4ZDgxIiwidXNlcl9pZCI6MTF9.LrAP0ii8jOzTm16Vrp-jrs-dykrQMgrwKTCUcMTxit0",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"disabled": true
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQwOTQ5Nzk5LCJpYXQiOjE3NDA4NjMzOTksImp0aSI6IjI5YzkwMjQwNGM5ZDRkMTE5ZTdiNTZkNGYyYzkxMmM1IiwidXNlcl9pZCI6OX0.qcxrA0ZKE0ocl2vHT-O8gh5u_JZJwpxtaKREh5dHsGM\"",
+						"type": "default",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\r\n\"otp\":911466,\r\n\"email\":\"jayasreea45@gmail.com\"\r\n\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/listloans/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"listloans",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:8000/api/listloans/",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQxMTc4MTk3LCJpYXQiOjE3NDEwOTE3OTcsImp0aSI6ImNjOGU0MWJiNTBlNDRlZWE5NDQyZjhhNDFjYzk4ZDgxIiwidXNlcl9pZCI6MTF9.LrAP0ii8jOzTm16Vrp-jrs-dykrQMgrwKTCUcMTxit0",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"disabled": true
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQwOTQ5Nzk5LCJpYXQiOjE3NDA4NjMzOTksImp0aSI6IjI5YzkwMjQwNGM5ZDRkMTE5ZTdiNTZkNGYyYzkxMmM1IiwidXNlcl9pZCI6OX0.qcxrA0ZKE0ocl2vHT-O8gh5u_JZJwpxtaKREh5dHsGM\"",
+						"type": "default",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\r\n\"otp\":911466,\r\n\"email\":\"jayasreea45@gmail.com\"\r\n\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/listloans/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"listloans",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:8000/api/listloans/",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQxMTc4MTk3LCJpYXQiOjE3NDEwOTE3OTcsImp0aSI6ImNjOGU0MWJiNTBlNDRlZWE5NDQyZjhhNDFjYzk4ZDgxIiwidXNlcl9pZCI6MTF9.LrAP0ii8jOzTm16Vrp-jrs-dykrQMgrwKTCUcMTxit0",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"disabled": true
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQwOTQ5Nzk5LCJpYXQiOjE3NDA4NjMzOTksImp0aSI6IjI5YzkwMjQwNGM5ZDRkMTE5ZTdiNTZkNGYyYzkxMmM1IiwidXNlcl9pZCI6OX0.qcxrA0ZKE0ocl2vHT-O8gh5u_JZJwpxtaKREh5dHsGM\"",
+						"type": "default",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\r\n\"otp\":911466,\r\n\"email\":\"jayasreea45@gmail.com\"\r\n\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/listloans/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"listloans",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:8000/api/listloans/",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQxMTc4MTk3LCJpYXQiOjE3NDEwOTE3OTcsImp0aSI6ImNjOGU0MWJiNTBlNDRlZWE5NDQyZjhhNDFjYzk4ZDgxIiwidXNlcl9pZCI6MTF9.LrAP0ii8jOzTm16Vrp-jrs-dykrQMgrwKTCUcMTxit0",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"disabled": true
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQwOTQ5Nzk5LCJpYXQiOjE3NDA4NjMzOTksImp0aSI6IjI5YzkwMjQwNGM5ZDRkMTE5ZTdiNTZkNGYyYzkxMmM1IiwidXNlcl9pZCI6OX0.qcxrA0ZKE0ocl2vHT-O8gh5u_JZJwpxtaKREh5dHsGM\"",
+						"type": "default",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\r\n\"otp\":911466,\r\n\"email\":\"jayasreea45@gmail.com\"\r\n\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/listloans/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"listloans",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:8000/api/listloans/",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQxMTc4MTk3LCJpYXQiOjE3NDEwOTE3OTcsImp0aSI6ImNjOGU0MWJiNTBlNDRlZWE5NDQyZjhhNDFjYzk4ZDgxIiwidXNlcl9pZCI6MTF9.LrAP0ii8jOzTm16Vrp-jrs-dykrQMgrwKTCUcMTxit0",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"disabled": true
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQwOTQ5Nzk5LCJpYXQiOjE3NDA4NjMzOTksImp0aSI6IjI5YzkwMjQwNGM5ZDRkMTE5ZTdiNTZkNGYyYzkxMmM1IiwidXNlcl9pZCI6OX0.qcxrA0ZKE0ocl2vHT-O8gh5u_JZJwpxtaKREh5dHsGM\"",
+						"type": "default",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\r\n\"otp\":911466,\r\n\"email\":\"jayasreea45@gmail.com\"\r\n\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/listloans/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"listloans",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:8000/api/listloans/",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQxMTc4MTk3LCJpYXQiOjE3NDEwOTE3OTcsImp0aSI6ImNjOGU0MWJiNTBlNDRlZWE5NDQyZjhhNDFjYzk4ZDgxIiwidXNlcl9pZCI6MTF9.LrAP0ii8jOzTm16Vrp-jrs-dykrQMgrwKTCUcMTxit0",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"disabled": true
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQwOTQ5Nzk5LCJpYXQiOjE3NDA4NjMzOTksImp0aSI6IjI5YzkwMjQwNGM5ZDRkMTE5ZTdiNTZkNGYyYzkxMmM1IiwidXNlcl9pZCI6OX0.qcxrA0ZKE0ocl2vHT-O8gh5u_JZJwpxtaKREh5dHsGM\"",
+						"type": "default",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\r\n\"otp\":911466,\r\n\"email\":\"jayasreea45@gmail.com\"\r\n\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/listloans/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"listloans",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:8000/api/listloans/",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQxMTc4MTk3LCJpYXQiOjE3NDEwOTE3OTcsImp0aSI6ImNjOGU0MWJiNTBlNDRlZWE5NDQyZjhhNDFjYzk4ZDgxIiwidXNlcl9pZCI6MTF9.LrAP0ii8jOzTm16Vrp-jrs-dykrQMgrwKTCUcMTxit0",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"disabled": true
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQwOTQ5Nzk5LCJpYXQiOjE3NDA4NjMzOTksImp0aSI6IjI5YzkwMjQwNGM5ZDRkMTE5ZTdiNTZkNGYyYzkxMmM1IiwidXNlcl9pZCI6OX0.qcxrA0ZKE0ocl2vHT-O8gh5u_JZJwpxtaKREh5dHsGM\"",
+						"type": "default",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\r\n\"otp\":911466,\r\n\"email\":\"jayasreea45@gmail.com\"\r\n\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/listloans/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"listloans",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:8000/api/listloans/",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQxMTc4MTk3LCJpYXQiOjE3NDEwOTE3OTcsImp0aSI6ImNjOGU0MWJiNTBlNDRlZWE5NDQyZjhhNDFjYzk4ZDgxIiwidXNlcl9pZCI6MTF9.LrAP0ii8jOzTm16Vrp-jrs-dykrQMgrwKTCUcMTxit0",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"disabled": true
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQwOTQ5Nzk5LCJpYXQiOjE3NDA4NjMzOTksImp0aSI6IjI5YzkwMjQwNGM5ZDRkMTE5ZTdiNTZkNGYyYzkxMmM1IiwidXNlcl9pZCI6OX0.qcxrA0ZKE0ocl2vHT-O8gh5u_JZJwpxtaKREh5dHsGM\"",
+						"type": "default",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\r\n\"otp\":911466,\r\n\"email\":\"jayasreea45@gmail.com\"\r\n\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/listloans/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"listloans",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:8000/api/loans/",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQxMTc4MTk3LCJpYXQiOjE3NDEwOTE3OTcsImp0aSI6ImNjOGU0MWJiNTBlNDRlZWE5NDQyZjhhNDFjYzk4ZDgxIiwidXNlcl9pZCI6MTF9.LrAP0ii8jOzTm16Vrp-jrs-dykrQMgrwKTCUcMTxit0",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"disabled": true
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQwOTQ5Nzk5LCJpYXQiOjE3NDA4NjMzOTksImp0aSI6IjI5YzkwMjQwNGM5ZDRkMTE5ZTdiNTZkNGYyYzkxMmM1IiwidXNlcl9pZCI6OX0.qcxrA0ZKE0ocl2vHT-O8gh5u_JZJwpxtaKREh5dHsGM\"",
+						"type": "default",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\r\n\"otp\":911466,\r\n\"email\":\"jayasreea45@gmail.com\"\r\n\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/loans/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"loans",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:8000/api/loans/",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQxMTc4MTk3LCJpYXQiOjE3NDEwOTE3OTcsImp0aSI6ImNjOGU0MWJiNTBlNDRlZWE5NDQyZjhhNDFjYzk4ZDgxIiwidXNlcl9pZCI6MTF9.LrAP0ii8jOzTm16Vrp-jrs-dykrQMgrwKTCUcMTxit0",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"disabled": true
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQwOTQ5Nzk5LCJpYXQiOjE3NDA4NjMzOTksImp0aSI6IjI5YzkwMjQwNGM5ZDRkMTE5ZTdiNTZkNGYyYzkxMmM1IiwidXNlcl9pZCI6OX0.qcxrA0ZKE0ocl2vHT-O8gh5u_JZJwpxtaKREh5dHsGM\"",
+						"type": "default",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\r\n\"otp\":911466,\r\n\"email\":\"jayasreea45@gmail.com\"\r\n\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/loans/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"loans",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:8000/api/listloans/",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQxMTc4MTk3LCJpYXQiOjE3NDEwOTE3OTcsImp0aSI6ImNjOGU0MWJiNTBlNDRlZWE5NDQyZjhhNDFjYzk4ZDgxIiwidXNlcl9pZCI6MTF9.LrAP0ii8jOzTm16Vrp-jrs-dykrQMgrwKTCUcMTxit0",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"disabled": true
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQwOTQ5Nzk5LCJpYXQiOjE3NDA4NjMzOTksImp0aSI6IjI5YzkwMjQwNGM5ZDRkMTE5ZTdiNTZkNGYyYzkxMmM1IiwidXNlcl9pZCI6OX0.qcxrA0ZKE0ocl2vHT-O8gh5u_JZJwpxtaKREh5dHsGM\"",
+						"type": "default",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\r\n\"otp\":911466,\r\n\"email\":\"jayasreea45@gmail.com\"\r\n\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/listloans/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"listloans",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:8000/api/loanslist/",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQxMTc4MTk3LCJpYXQiOjE3NDEwOTE3OTcsImp0aSI6ImNjOGU0MWJiNTBlNDRlZWE5NDQyZjhhNDFjYzk4ZDgxIiwidXNlcl9pZCI6MTF9.LrAP0ii8jOzTm16Vrp-jrs-dykrQMgrwKTCUcMTxit0",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"disabled": true
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQwOTQ5Nzk5LCJpYXQiOjE3NDA4NjMzOTksImp0aSI6IjI5YzkwMjQwNGM5ZDRkMTE5ZTdiNTZkNGYyYzkxMmM1IiwidXNlcl9pZCI6OX0.qcxrA0ZKE0ocl2vHT-O8gh5u_JZJwpxtaKREh5dHsGM\"",
+						"type": "default",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\r\n\"otp\":911466,\r\n\"email\":\"jayasreea45@gmail.com\"\r\n\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/loanslist/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"loanslist",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:8000/verify-otp/",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQxMTc3MDI3LCJpYXQiOjE3NDEwOTA2MjcsImp0aSI6ImYzOTVlYzBjYWQ4MTQyMGU4ZTdlZTQyOTY0OGMxMTUyIiwidXNlcl9pZCI6OX0.m6rM_FzsVvftb-ChYMfrG1T2S6pyd6bG7TT8thlFg-k",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"disabled": true
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQwOTQ5Nzk5LCJpYXQiOjE3NDA4NjMzOTksImp0aSI6IjI5YzkwMjQwNGM5ZDRkMTE5ZTdiNTZkNGYyYzkxMmM1IiwidXNlcl9pZCI6OX0.qcxrA0ZKE0ocl2vHT-O8gh5u_JZJwpxtaKREh5dHsGM\"",
+						"type": "default",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\r\n\"otp\":911466,\r\n\"email\":\"jayasreea45@gmail.com\"\r\n\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/verify-otp/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"verify-otp",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:8000/register/",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQxMTc3MDI3LCJpYXQiOjE3NDEwOTA2MjcsImp0aSI6ImYzOTVlYzBjYWQ4MTQyMGU4ZTdlZTQyOTY0OGMxMTUyIiwidXNlcl9pZCI6OX0.m6rM_FzsVvftb-ChYMfrG1T2S6pyd6bG7TT8thlFg-k",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"disabled": true
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQwOTQ5Nzk5LCJpYXQiOjE3NDA4NjMzOTksImp0aSI6IjI5YzkwMjQwNGM5ZDRkMTE5ZTdiNTZkNGYyYzkxMmM1IiwidXNlcl9pZCI6OX0.qcxrA0ZKE0ocl2vHT-O8gh5u_JZJwpxtaKREh5dHsGM\"",
+						"type": "default",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\r\n\"username\":\"test01\",\r\n\"password\":1234,\r\n\"role\":\"admin\",\r\n\"email\":\"jayasreea45@gmail.com\"\r\n\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/register/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"register",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:8000/register/",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQxMTc3MDI3LCJpYXQiOjE3NDEwOTA2MjcsImp0aSI6ImYzOTVlYzBjYWQ4MTQyMGU4ZTdlZTQyOTY0OGMxMTUyIiwidXNlcl9pZCI6OX0.m6rM_FzsVvftb-ChYMfrG1T2S6pyd6bG7TT8thlFg-k",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"disabled": true
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQwOTQ5Nzk5LCJpYXQiOjE3NDA4NjMzOTksImp0aSI6IjI5YzkwMjQwNGM5ZDRkMTE5ZTdiNTZkNGYyYzkxMmM1IiwidXNlcl9pZCI6OX0.qcxrA0ZKE0ocl2vHT-O8gh5u_JZJwpxtaKREh5dHsGM\"",
+						"type": "default",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\r\n\"username\":\"test01\",\r\n\"password\":1234,\r\n\"role\":\"Admin\",\r\n\"email\":\"jayasreea45@gmail.com\"\r\n\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/register/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"register",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:8000/api/loans/LOAN007/delete/",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQxMTc3MDI3LCJpYXQiOjE3NDEwOTA2MjcsImp0aSI6ImYzOTVlYzBjYWQ4MTQyMGU4ZTdlZTQyOTY0OGMxMTUyIiwidXNlcl9pZCI6OX0.m6rM_FzsVvftb-ChYMfrG1T2S6pyd6bG7TT8thlFg-k",
+							"type": "string"
+						}
+					]
+				},
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"disabled": true
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQwOTQ5Nzk5LCJpYXQiOjE3NDA4NjMzOTksImp0aSI6IjI5YzkwMjQwNGM5ZDRkMTE5ZTdiNTZkNGYyYzkxMmM1IiwidXNlcl9pZCI6OX0.qcxrA0ZKE0ocl2vHT-O8gh5u_JZJwpxtaKREh5dHsGM\"",
+						"type": "default",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\r\n\"amount\":60000.00,\r\n\"tenure\":16,\r\n\"interest_rate\":12.5\r\n\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/loans/LOAN007/delete/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"loans",
+						"LOAN007",
+						"delete",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:8000/api/loans/LOAN007/delete",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQxMTc3MDI3LCJpYXQiOjE3NDEwOTA2MjcsImp0aSI6ImYzOTVlYzBjYWQ4MTQyMGU4ZTdlZTQyOTY0OGMxMTUyIiwidXNlcl9pZCI6OX0.m6rM_FzsVvftb-ChYMfrG1T2S6pyd6bG7TT8thlFg-k",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"disabled": true
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQwOTQ5Nzk5LCJpYXQiOjE3NDA4NjMzOTksImp0aSI6IjI5YzkwMjQwNGM5ZDRkMTE5ZTdiNTZkNGYyYzkxMmM1IiwidXNlcl9pZCI6OX0.qcxrA0ZKE0ocl2vHT-O8gh5u_JZJwpxtaKREh5dHsGM\"",
+						"type": "default",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\r\n\"amount\":60000.00,\r\n\"tenure\":16,\r\n\"interest_rate\":12.5\r\n\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/loans/LOAN007/delete",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"loans",
+						"LOAN007",
+						"delete"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:8000/api/loans/",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQxMTc3MDI3LCJpYXQiOjE3NDEwOTA2MjcsImp0aSI6ImYzOTVlYzBjYWQ4MTQyMGU4ZTdlZTQyOTY0OGMxMTUyIiwidXNlcl9pZCI6OX0.m6rM_FzsVvftb-ChYMfrG1T2S6pyd6bG7TT8thlFg-k",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"disabled": true
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQwOTQ5Nzk5LCJpYXQiOjE3NDA4NjMzOTksImp0aSI6IjI5YzkwMjQwNGM5ZDRkMTE5ZTdiNTZkNGYyYzkxMmM1IiwidXNlcl9pZCI6OX0.qcxrA0ZKE0ocl2vHT-O8gh5u_JZJwpxtaKREh5dHsGM\"",
+						"type": "default",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\r\n\"amount\":60000.00,\r\n\"tenure\":16,\r\n\"interest_rate\":12.5\r\n\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/loans/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"loans",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:8000/loans/",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQxMTc3MDI3LCJpYXQiOjE3NDEwOTA2MjcsImp0aSI6ImYzOTVlYzBjYWQ4MTQyMGU4ZTdlZTQyOTY0OGMxMTUyIiwidXNlcl9pZCI6OX0.m6rM_FzsVvftb-ChYMfrG1T2S6pyd6bG7TT8thlFg-k",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"disabled": true
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQwOTQ5Nzk5LCJpYXQiOjE3NDA4NjMzOTksImp0aSI6IjI5YzkwMjQwNGM5ZDRkMTE5ZTdiNTZkNGYyYzkxMmM1IiwidXNlcl9pZCI6OX0.qcxrA0ZKE0ocl2vHT-O8gh5u_JZJwpxtaKREh5dHsGM\"",
+						"type": "default",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\r\n\"amount\":60000.00,\r\n\"tenure\":16,\r\n\"interest_rate\":12.5\r\n\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/loans/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"loans",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:8000/login/",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQxMTcyOTkzLCJpYXQiOjE3NDEwODY1OTMsImp0aSI6ImNlMjk3Y2YwYmJkYzQwNWI4NzJiYTc2ZmJlMDUwYTJmIiwidXNlcl9pZCI6MTB9.MOKF5OshOnblEFM3-76qsvaAsdPeM2uD2Ux1Np8uVAs",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"disabled": true
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQwOTQ5Nzk5LCJpYXQiOjE3NDA4NjMzOTksImp0aSI6IjI5YzkwMjQwNGM5ZDRkMTE5ZTdiNTZkNGYyYzkxMmM1IiwidXNlcl9pZCI6OX0.qcxrA0ZKE0ocl2vHT-O8gh5u_JZJwpxtaKREh5dHsGM\"",
+						"type": "default",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\r\n\"username\":\"ram07\",\r\n\"password\":\"1234\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/login/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"login",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:8000/api/listloans/",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQxMTcyOTkzLCJpYXQiOjE3NDEwODY1OTMsImp0aSI6ImNlMjk3Y2YwYmJkYzQwNWI4NzJiYTc2ZmJlMDUwYTJmIiwidXNlcl9pZCI6MTB9.MOKF5OshOnblEFM3-76qsvaAsdPeM2uD2Ux1Np8uVAs",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"disabled": true
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQwOTQ5Nzk5LCJpYXQiOjE3NDA4NjMzOTksImp0aSI6IjI5YzkwMjQwNGM5ZDRkMTE5ZTdiNTZkNGYyYzkxMmM1IiwidXNlcl9pZCI6OX0.qcxrA0ZKE0ocl2vHT-O8gh5u_JZJwpxtaKREh5dHsGM\"",
+						"type": "default",
+						"disabled": true
+					}
+				],
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/listloans/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"listloans",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:8000/api/listloans/",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQxMTcyOTkzLCJpYXQiOjE3NDEwODY1OTMsImp0aSI6ImNlMjk3Y2YwYmJkYzQwNWI4NzJiYTc2ZmJlMDUwYTJmIiwidXNlcl9pZCI6MTB9.MOKF5OshOnblEFM3-76qsvaAsdPeM2uD2Ux1Np8uVAs",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"disabled": true
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQwOTQ5Nzk5LCJpYXQiOjE3NDA4NjMzOTksImp0aSI6IjI5YzkwMjQwNGM5ZDRkMTE5ZTdiNTZkNGYyYzkxMmM1IiwidXNlcl9pZCI6OX0.qcxrA0ZKE0ocl2vHT-O8gh5u_JZJwpxtaKREh5dHsGM\"",
+						"type": "default",
+						"disabled": true
+					}
+				],
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/listloans/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"listloans",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:8000/api/loans/LOAN006/foreclose",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQxMTcyOTkzLCJpYXQiOjE3NDEwODY1OTMsImp0aSI6ImNlMjk3Y2YwYmJkYzQwNWI4NzJiYTc2ZmJlMDUwYTJmIiwidXNlcl9pZCI6MTB9.MOKF5OshOnblEFM3-76qsvaAsdPeM2uD2Ux1Np8uVAs",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"disabled": true
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQwOTQ5Nzk5LCJpYXQiOjE3NDA4NjMzOTksImp0aSI6IjI5YzkwMjQwNGM5ZDRkMTE5ZTdiNTZkNGYyYzkxMmM1IiwidXNlcl9pZCI6OX0.qcxrA0ZKE0ocl2vHT-O8gh5u_JZJwpxtaKREh5dHsGM\"",
+						"type": "default",
+						"disabled": true
+					}
+				],
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/loans/LOAN006/foreclose",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"loans",
+						"LOAN006",
+						"foreclose"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:8000/api/loans/LOAN002/foreclose",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQxMTcyOTkzLCJpYXQiOjE3NDEwODY1OTMsImp0aSI6ImNlMjk3Y2YwYmJkYzQwNWI4NzJiYTc2ZmJlMDUwYTJmIiwidXNlcl9pZCI6MTB9.MOKF5OshOnblEFM3-76qsvaAsdPeM2uD2Ux1Np8uVAs",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"disabled": true
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQwOTQ5Nzk5LCJpYXQiOjE3NDA4NjMzOTksImp0aSI6IjI5YzkwMjQwNGM5ZDRkMTE5ZTdiNTZkNGYyYzkxMmM1IiwidXNlcl9pZCI6OX0.qcxrA0ZKE0ocl2vHT-O8gh5u_JZJwpxtaKREh5dHsGM\"",
+						"type": "default",
+						"disabled": true
+					}
+				],
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/loans/LOAN002/foreclose",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"loans",
+						"LOAN002",
+						"foreclose"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:8000/api/loans/LOAN002/foreclose",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQxMTcyOTkzLCJpYXQiOjE3NDEwODY1OTMsImp0aSI6ImNlMjk3Y2YwYmJkYzQwNWI4NzJiYTc2ZmJlMDUwYTJmIiwidXNlcl9pZCI6MTB9.MOKF5OshOnblEFM3-76qsvaAsdPeM2uD2Ux1Np8uVAs",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"disabled": true
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQwOTQ5Nzk5LCJpYXQiOjE3NDA4NjMzOTksImp0aSI6IjI5YzkwMjQwNGM5ZDRkMTE5ZTdiNTZkNGYyYzkxMmM1IiwidXNlcl9pZCI6OX0.qcxrA0ZKE0ocl2vHT-O8gh5u_JZJwpxtaKREh5dHsGM\"",
+						"type": "default",
+						"disabled": true
+					}
+				],
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/loans/LOAN002/foreclose",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"loans",
+						"LOAN002",
+						"foreclose"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:8000/api/listloans/",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQxMTcyOTkzLCJpYXQiOjE3NDEwODY1OTMsImp0aSI6ImNlMjk3Y2YwYmJkYzQwNWI4NzJiYTc2ZmJlMDUwYTJmIiwidXNlcl9pZCI6MTB9.MOKF5OshOnblEFM3-76qsvaAsdPeM2uD2Ux1Np8uVAs",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"disabled": true
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQwOTQ5Nzk5LCJpYXQiOjE3NDA4NjMzOTksImp0aSI6IjI5YzkwMjQwNGM5ZDRkMTE5ZTdiNTZkNGYyYzkxMmM1IiwidXNlcl9pZCI6OX0.qcxrA0ZKE0ocl2vHT-O8gh5u_JZJwpxtaKREh5dHsGM\"",
+						"type": "default",
+						"disabled": true
+					}
+				],
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/listloans/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"listloans",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:8000/api/loans/",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQxMTcyOTkzLCJpYXQiOjE3NDEwODY1OTMsImp0aSI6ImNlMjk3Y2YwYmJkYzQwNWI4NzJiYTc2ZmJlMDUwYTJmIiwidXNlcl9pZCI6MTB9.MOKF5OshOnblEFM3-76qsvaAsdPeM2uD2Ux1Np8uVAs",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"disabled": true
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQwOTQ5Nzk5LCJpYXQiOjE3NDA4NjMzOTksImp0aSI6IjI5YzkwMjQwNGM5ZDRkMTE5ZTdiNTZkNGYyYzkxMmM1IiwidXNlcl9pZCI6OX0.qcxrA0ZKE0ocl2vHT-O8gh5u_JZJwpxtaKREh5dHsGM\"",
+						"type": "default",
+						"disabled": true
+					}
+				],
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/loans/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"loans",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:8000/api/loans/",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQxMTcyOTkzLCJpYXQiOjE3NDEwODY1OTMsImp0aSI6ImNlMjk3Y2YwYmJkYzQwNWI4NzJiYTc2ZmJlMDUwYTJmIiwidXNlcl9pZCI6MTB9.MOKF5OshOnblEFM3-76qsvaAsdPeM2uD2Ux1Np8uVAs",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"disabled": true
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQwOTQ5Nzk5LCJpYXQiOjE3NDA4NjMzOTksImp0aSI6IjI5YzkwMjQwNGM5ZDRkMTE5ZTdiNTZkNGYyYzkxMmM1IiwidXNlcl9pZCI6OX0.qcxrA0ZKE0ocl2vHT-O8gh5u_JZJwpxtaKREh5dHsGM\"",
+						"type": "default",
+						"disabled": true
+					}
+				],
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/loans/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"loans",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:8000/api/loans/",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQxMTcyOTkzLCJpYXQiOjE3NDEwODY1OTMsImp0aSI6ImNlMjk3Y2YwYmJkYzQwNWI4NzJiYTc2ZmJlMDUwYTJmIiwidXNlcl9pZCI6MTB9.MOKF5OshOnblEFM3-76qsvaAsdPeM2uD2Ux1Np8uVAs",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"disabled": true
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQwOTQ5Nzk5LCJpYXQiOjE3NDA4NjMzOTksImp0aSI6IjI5YzkwMjQwNGM5ZDRkMTE5ZTdiNTZkNGYyYzkxMmM1IiwidXNlcl9pZCI6OX0.qcxrA0ZKE0ocl2vHT-O8gh5u_JZJwpxtaKREh5dHsGM\"",
+						"type": "default",
+						"disabled": true
+					}
+				],
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/loans/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"loans",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:8000/api/loanslist/",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQxMTcyOTkzLCJpYXQiOjE3NDEwODY1OTMsImp0aSI6ImNlMjk3Y2YwYmJkYzQwNWI4NzJiYTc2ZmJlMDUwYTJmIiwidXNlcl9pZCI6MTB9.MOKF5OshOnblEFM3-76qsvaAsdPeM2uD2Ux1Np8uVAs",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"disabled": true
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQwOTQ5Nzk5LCJpYXQiOjE3NDA4NjMzOTksImp0aSI6IjI5YzkwMjQwNGM5ZDRkMTE5ZTdiNTZkNGYyYzkxMmM1IiwidXNlcl9pZCI6OX0.qcxrA0ZKE0ocl2vHT-O8gh5u_JZJwpxtaKREh5dHsGM\"",
+						"type": "default",
+						"disabled": true
+					}
+				],
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/loanslist/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"loanslist",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:8000/api/loanslist/",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQxMTcyOTkzLCJpYXQiOjE3NDEwODY1OTMsImp0aSI6ImNlMjk3Y2YwYmJkYzQwNWI4NzJiYTc2ZmJlMDUwYTJmIiwidXNlcl9pZCI6MTB9.MOKF5OshOnblEFM3-76qsvaAsdPeM2uD2Ux1Np8uVAs",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"disabled": true
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQwOTQ5Nzk5LCJpYXQiOjE3NDA4NjMzOTksImp0aSI6IjI5YzkwMjQwNGM5ZDRkMTE5ZTdiNTZkNGYyYzkxMmM1IiwidXNlcl9pZCI6OX0.qcxrA0ZKE0ocl2vHT-O8gh5u_JZJwpxtaKREh5dHsGM\"",
+						"type": "default",
+						"disabled": true
+					}
+				],
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/loanslist/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"loanslist",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:8000/api/loans/LOAN006/foreclose",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQxMTcyOTkzLCJpYXQiOjE3NDEwODY1OTMsImp0aSI6ImNlMjk3Y2YwYmJkYzQwNWI4NzJiYTc2ZmJlMDUwYTJmIiwidXNlcl9pZCI6MTB9.MOKF5OshOnblEFM3-76qsvaAsdPeM2uD2Ux1Np8uVAs",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"disabled": true
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQwOTQ5Nzk5LCJpYXQiOjE3NDA4NjMzOTksImp0aSI6IjI5YzkwMjQwNGM5ZDRkMTE5ZTdiNTZkNGYyYzkxMmM1IiwidXNlcl9pZCI6OX0.qcxrA0ZKE0ocl2vHT-O8gh5u_JZJwpxtaKREh5dHsGM\"",
+						"type": "default",
+						"disabled": true
+					}
+				],
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/loans/LOAN006/foreclose",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"loans",
+						"LOAN006",
+						"foreclose"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:8000/api/loans/LOAN006/foreclose/",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQxMTcyOTkzLCJpYXQiOjE3NDEwODY1OTMsImp0aSI6ImNlMjk3Y2YwYmJkYzQwNWI4NzJiYTc2ZmJlMDUwYTJmIiwidXNlcl9pZCI6MTB9.MOKF5OshOnblEFM3-76qsvaAsdPeM2uD2Ux1Np8uVAs",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"disabled": true
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQwOTQ5Nzk5LCJpYXQiOjE3NDA4NjMzOTksImp0aSI6IjI5YzkwMjQwNGM5ZDRkMTE5ZTdiNTZkNGYyYzkxMmM1IiwidXNlcl9pZCI6OX0.qcxrA0ZKE0ocl2vHT-O8gh5u_JZJwpxtaKREh5dHsGM\"",
+						"type": "default",
+						"disabled": true
+					}
+				],
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/loans/LOAN006/foreclose/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"loans",
+						"LOAN006",
+						"foreclose",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:8000/api/loans/LOAN006/foreclose/",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQxMTcyOTkzLCJpYXQiOjE3NDEwODY1OTMsImp0aSI6ImNlMjk3Y2YwYmJkYzQwNWI4NzJiYTc2ZmJlMDUwYTJmIiwidXNlcl9pZCI6MTB9.MOKF5OshOnblEFM3-76qsvaAsdPeM2uD2Ux1Np8uVAs",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"disabled": true
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQwOTQ5Nzk5LCJpYXQiOjE3NDA4NjMzOTksImp0aSI6IjI5YzkwMjQwNGM5ZDRkMTE5ZTdiNTZkNGYyYzkxMmM1IiwidXNlcl9pZCI6OX0.qcxrA0ZKE0ocl2vHT-O8gh5u_JZJwpxtaKREh5dHsGM\"",
+						"type": "default",
+						"disabled": true
+					}
+				],
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/loans/LOAN006/foreclose/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"loans",
+						"LOAN006",
+						"foreclose",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:8000/loans/LOAN006/foreclose/",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQxMTcyOTkzLCJpYXQiOjE3NDEwODY1OTMsImp0aSI6ImNlMjk3Y2YwYmJkYzQwNWI4NzJiYTc2ZmJlMDUwYTJmIiwidXNlcl9pZCI6MTB9.MOKF5OshOnblEFM3-76qsvaAsdPeM2uD2Ux1Np8uVAs",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"disabled": true
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQwOTQ5Nzk5LCJpYXQiOjE3NDA4NjMzOTksImp0aSI6IjI5YzkwMjQwNGM5ZDRkMTE5ZTdiNTZkNGYyYzkxMmM1IiwidXNlcl9pZCI6OX0.qcxrA0ZKE0ocl2vHT-O8gh5u_JZJwpxtaKREh5dHsGM\"",
+						"type": "default",
+						"disabled": true
+					}
+				],
+				"url": {
+					"raw": "http://127.0.0.1:8000/loans/LOAN006/foreclose/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"loans",
+						"LOAN006",
+						"foreclose",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:8000/loans/LOAN006/foreclose/",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQxMTcyOTkzLCJpYXQiOjE3NDEwODY1OTMsImp0aSI6ImNlMjk3Y2YwYmJkYzQwNWI4NzJiYTc2ZmJlMDUwYTJmIiwidXNlcl9pZCI6MTB9.MOKF5OshOnblEFM3-76qsvaAsdPeM2uD2Ux1Np8uVAs",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"disabled": true
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQwOTQ5Nzk5LCJpYXQiOjE3NDA4NjMzOTksImp0aSI6IjI5YzkwMjQwNGM5ZDRkMTE5ZTdiNTZkNGYyYzkxMmM1IiwidXNlcl9pZCI6OX0.qcxrA0ZKE0ocl2vHT-O8gh5u_JZJwpxtaKREh5dHsGM\"",
+						"type": "default",
+						"disabled": true
+					}
+				],
+				"url": {
+					"raw": "http://127.0.0.1:8000/loans/LOAN006/foreclose/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"loans",
+						"LOAN006",
+						"foreclose",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:8000/api/loanslist/",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQxMTcyOTkzLCJpYXQiOjE3NDEwODY1OTMsImp0aSI6ImNlMjk3Y2YwYmJkYzQwNWI4NzJiYTc2ZmJlMDUwYTJmIiwidXNlcl9pZCI6MTB9.MOKF5OshOnblEFM3-76qsvaAsdPeM2uD2Ux1Np8uVAs",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"disabled": true
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQwOTQ5Nzk5LCJpYXQiOjE3NDA4NjMzOTksImp0aSI6IjI5YzkwMjQwNGM5ZDRkMTE5ZTdiNTZkNGYyYzkxMmM1IiwidXNlcl9pZCI6OX0.qcxrA0ZKE0ocl2vHT-O8gh5u_JZJwpxtaKREh5dHsGM\"",
+						"type": "default",
+						"disabled": true
+					}
+				],
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/loanslist/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"loanslist",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:8000/api/loanlist/",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQxMTcyOTkzLCJpYXQiOjE3NDEwODY1OTMsImp0aSI6ImNlMjk3Y2YwYmJkYzQwNWI4NzJiYTc2ZmJlMDUwYTJmIiwidXNlcl9pZCI6MTB9.MOKF5OshOnblEFM3-76qsvaAsdPeM2uD2Ux1Np8uVAs",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"disabled": true
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQwOTQ5Nzk5LCJpYXQiOjE3NDA4NjMzOTksImp0aSI6IjI5YzkwMjQwNGM5ZDRkMTE5ZTdiNTZkNGYyYzkxMmM1IiwidXNlcl9pZCI6OX0.qcxrA0ZKE0ocl2vHT-O8gh5u_JZJwpxtaKREh5dHsGM\"",
+						"type": "default",
+						"disabled": true
+					}
+				],
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/loanlist/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"loanlist",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:8000/api/loans/",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQxMTcyOTkzLCJpYXQiOjE3NDEwODY1OTMsImp0aSI6ImNlMjk3Y2YwYmJkYzQwNWI4NzJiYTc2ZmJlMDUwYTJmIiwidXNlcl9pZCI6MTB9.MOKF5OshOnblEFM3-76qsvaAsdPeM2uD2Ux1Np8uVAs",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"disabled": true
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQwOTQ5Nzk5LCJpYXQiOjE3NDA4NjMzOTksImp0aSI6IjI5YzkwMjQwNGM5ZDRkMTE5ZTdiNTZkNGYyYzkxMmM1IiwidXNlcl9pZCI6OX0.qcxrA0ZKE0ocl2vHT-O8gh5u_JZJwpxtaKREh5dHsGM\"",
+						"type": "default",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\r\n\"amount\":100000.00,\r\n\"tenure\":8,\r\n\"interest_rate\":12.3\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/loans/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"loans",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:8000/login/",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQxMTcyOTkzLCJpYXQiOjE3NDEwODY1OTMsImp0aSI6ImNlMjk3Y2YwYmJkYzQwNWI4NzJiYTc2ZmJlMDUwYTJmIiwidXNlcl9pZCI6MTB9.MOKF5OshOnblEFM3-76qsvaAsdPeM2uD2Ux1Np8uVAs",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"disabled": true
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQwOTQ5Nzk5LCJpYXQiOjE3NDA4NjMzOTksImp0aSI6IjI5YzkwMjQwNGM5ZDRkMTE5ZTdiNTZkNGYyYzkxMmM1IiwidXNlcl9pZCI6OX0.qcxrA0ZKE0ocl2vHT-O8gh5u_JZJwpxtaKREh5dHsGM\"",
+						"type": "default",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\r\n\"username\":\"lekshman09\",\r\n\"password\":\"1234\"\r\n\r\n\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/login/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"login",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:8000/verify-otp/",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"disabled": true
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQwOTQ5Nzk5LCJpYXQiOjE3NDA4NjMzOTksImp0aSI6IjI5YzkwMjQwNGM5ZDRkMTE5ZTdiNTZkNGYyYzkxMmM1IiwidXNlcl9pZCI6OX0.qcxrA0ZKE0ocl2vHT-O8gh5u_JZJwpxtaKREh5dHsGM\"",
+						"type": "default",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\r\n\"email\":\"sjjayalekshman@gmail.com\",\r\n\"otp\":\"498606\"\r\n\r\n\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/verify-otp/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"verify-otp",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:8000/register/",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"disabled": true
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQwOTQ5Nzk5LCJpYXQiOjE3NDA4NjMzOTksImp0aSI6IjI5YzkwMjQwNGM5ZDRkMTE5ZTdiNTZkNGYyYzkxMmM1IiwidXNlcl9pZCI6OX0.qcxrA0ZKE0ocl2vHT-O8gh5u_JZJwpxtaKREh5dHsGM\"",
+						"type": "default",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\"username\":\"lekshman09\",\r\n\"role\":\"user\",\r\n\"email\":\"sjjayalekshman@gmail.com\",\r\n\"password\":\"1234\"\r\n\r\n\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/register/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"register",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:8000/register/",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"disabled": true
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQwOTQ5Nzk5LCJpYXQiOjE3NDA4NjMzOTksImp0aSI6IjI5YzkwMjQwNGM5ZDRkMTE5ZTdiNTZkNGYyYzkxMmM1IiwidXNlcl9pZCI6OX0.qcxrA0ZKE0ocl2vHT-O8gh5u_JZJwpxtaKREh5dHsGM\"",
+						"type": "default",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\"username\":\"lekshman09\",\r\n\"role\":\"user\",\r\n\"email\":\"sjjayalekshman@gmail.com\"\r\n\r\n\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/register/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"register",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:8000/register/",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"disabled": true
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQwOTQ5Nzk5LCJpYXQiOjE3NDA4NjMzOTksImp0aSI6IjI5YzkwMjQwNGM5ZDRkMTE5ZTdiNTZkNGYyYzkxMmM1IiwidXNlcl9pZCI6OX0.qcxrA0ZKE0ocl2vHT-O8gh5u_JZJwpxtaKREh5dHsGM\"",
+						"type": "default",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\"username\":\"lekshman09\",\r\n\"role\":\"user\",\r\n\"email\":\"sjjayalekshman@gmail.com\"\r\n\r\n\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/register/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"register",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:8000/logout/",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQxMDMwNjc3LCJpYXQiOjE3NDA5NDQyNzcsImp0aSI6ImVlNzYzNGUyYzQ5MTRkOTM5NTYzNWIxN2FiMzIwYjU1IiwidXNlcl9pZCI6OX0.mYNnMzM0dbtbss002JjXv2Z_9N9HcT7Ro0hPj_ySXCE",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"disabled": true
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQwOTQ5Nzk5LCJpYXQiOjE3NDA4NjMzOTksImp0aSI6IjI5YzkwMjQwNGM5ZDRkMTE5ZTdiNTZkNGYyYzkxMmM1IiwidXNlcl9pZCI6OX0.qcxrA0ZKE0ocl2vHT-O8gh5u_JZJwpxtaKREh5dHsGM\"",
+						"type": "default",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"refresh\": \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc0MTU0OTA3NywiaWF0IjoxNzQwOTQ0Mjc3LCJqdGkiOiI0ZTI1ZjVjNjI0MzY0MmY5YWNjN2VlMDBlMmExOTg5NSIsInVzZXJfaWQiOjl9.HESumIFiEOtxtNYfyx6nJW8kRAtZt9f9tl0Y9lOLhB4\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/logout/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"logout",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:8000/logout/",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"disabled": true
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQwOTQ5Nzk5LCJpYXQiOjE3NDA4NjMzOTksImp0aSI6IjI5YzkwMjQwNGM5ZDRkMTE5ZTdiNTZkNGYyYzkxMmM1IiwidXNlcl9pZCI6OX0.qcxrA0ZKE0ocl2vHT-O8gh5u_JZJwpxtaKREh5dHsGM\"",
+						"type": "default",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"refresh\": \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc0MTU0OTA3NywiaWF0IjoxNzQwOTQ0Mjc3LCJqdGkiOiI0ZTI1ZjVjNjI0MzY0MmY5YWNjN2VlMDBlMmExOTg5NSIsInVzZXJfaWQiOjl9.HESumIFiEOtxtNYfyx6nJW8kRAtZt9f9tl0Y9lOLhB4\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/logout/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"logout",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:8000/api/token/refresh/",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQxMDMwNjc3LCJpYXQiOjE3NDA5NDQyNzcsImp0aSI6ImVlNzYzNGUyYzQ5MTRkOTM5NTYzNWIxN2FiMzIwYjU1IiwidXNlcl9pZCI6OX0.mYNnMzM0dbtbss002JjXv2Z_9N9HcT7Ro0hPj_ySXCE",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"disabled": true
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQwOTQ5Nzk5LCJpYXQiOjE3NDA4NjMzOTksImp0aSI6IjI5YzkwMjQwNGM5ZDRkMTE5ZTdiNTZkNGYyYzkxMmM1IiwidXNlcl9pZCI6OX0.qcxrA0ZKE0ocl2vHT-O8gh5u_JZJwpxtaKREh5dHsGM\"",
+						"type": "default",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"refresh\": \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc0MTU0OTA3NywiaWF0IjoxNzQwOTQ0Mjc3LCJqdGkiOiI0ZTI1ZjVjNjI0MzY0MmY5YWNjN2VlMDBlMmExOTg5NSIsInVzZXJfaWQiOjl9.HESumIFiEOtxtNYfyx6nJW8kRAtZt9f9tl0Y9lOLhB4\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/token/refresh/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"token",
+						"refresh",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:8000/api/token/refresh/",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"disabled": true
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQwOTQ5Nzk5LCJpYXQiOjE3NDA4NjMzOTksImp0aSI6IjI5YzkwMjQwNGM5ZDRkMTE5ZTdiNTZkNGYyYzkxMmM1IiwidXNlcl9pZCI6OX0.qcxrA0ZKE0ocl2vHT-O8gh5u_JZJwpxtaKREh5dHsGM\"",
+						"type": "default",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"refresh\": \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc0MTU0OTA3NywiaWF0IjoxNzQwOTQ0Mjc3LCJqdGkiOiI0ZTI1ZjVjNjI0MzY0MmY5YWNjN2VlMDBlMmExOTg5NSIsInVzZXJfaWQiOjl9.HESumIFiEOtxtNYfyx6nJW8kRAtZt9f9tl0Y9lOLhB4\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/token/refresh/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"token",
+						"refresh",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:8000/logout/",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQxMDMwNjc3LCJpYXQiOjE3NDA5NDQyNzcsImp0aSI6ImVlNzYzNGUyYzQ5MTRkOTM5NTYzNWIxN2FiMzIwYjU1IiwidXNlcl9pZCI6OX0.mYNnMzM0dbtbss002JjXv2Z_9N9HcT7Ro0hPj_ySXCE",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"disabled": true
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQwOTQ5Nzk5LCJpYXQiOjE3NDA4NjMzOTksImp0aSI6IjI5YzkwMjQwNGM5ZDRkMTE5ZTdiNTZkNGYyYzkxMmM1IiwidXNlcl9pZCI6OX0.qcxrA0ZKE0ocl2vHT-O8gh5u_JZJwpxtaKREh5dHsGM\"",
+						"type": "default",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"refresh\": \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc0MTU0OTA3NywiaWF0IjoxNzQwOTQ0Mjc3LCJqdGkiOiI0ZTI1ZjVjNjI0MzY0MmY5YWNjN2VlMDBlMmExOTg5NSIsInVzZXJfaWQiOjl9.HESumIFiEOtxtNYfyx6nJW8kRAtZt9f9tl0Y9lOLhB4\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/logout/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"logout",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:8000/logout/",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQxMDMwNjc3LCJpYXQiOjE3NDA5NDQyNzcsImp0aSI6ImVlNzYzNGUyYzQ5MTRkOTM5NTYzNWIxN2FiMzIwYjU1IiwidXNlcl9pZCI6OX0.mYNnMzM0dbtbss002JjXv2Z_9N9HcT7Ro0hPj_ySXCE",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"disabled": true
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQwOTQ5Nzk5LCJpYXQiOjE3NDA4NjMzOTksImp0aSI6IjI5YzkwMjQwNGM5ZDRkMTE5ZTdiNTZkNGYyYzkxMmM1IiwidXNlcl9pZCI6OX0.qcxrA0ZKE0ocl2vHT-O8gh5u_JZJwpxtaKREh5dHsGM\"",
+						"type": "default",
+						"disabled": true
+					}
+				],
+				"url": {
+					"raw": "http://127.0.0.1:8000/logout/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"logout",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:8000/login/",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"disabled": true
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQwOTQ5Nzk5LCJpYXQiOjE3NDA4NjMzOTksImp0aSI6IjI5YzkwMjQwNGM5ZDRkMTE5ZTdiNTZkNGYyYzkxMmM1IiwidXNlcl9pZCI6OX0.qcxrA0ZKE0ocl2vHT-O8gh5u_JZJwpxtaKREh5dHsGM\"",
+						"type": "default",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"username\":\"ram07\",\"password\":\"1234\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/login/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"login",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:8000/logout/",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQxMDMwNjAxLCJpYXQiOjE3NDA5NDQyMDEsImp0aSI6ImQyMDliMjdjOTUxMTQ0ZDA5MjI4NDQwMDU1Y2RkNmNkIiwidXNlcl9pZCI6OX0.BX9hlj50LsHbCQbn65JJ0T4GzYBsELs6d5QciFC9f6k\",\n    \"refresh\": \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"disabled": true
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQwOTQ5Nzk5LCJpYXQiOjE3NDA4NjMzOTksImp0aSI6IjI5YzkwMjQwNGM5ZDRkMTE5ZTdiNTZkNGYyYzkxMmM1IiwidXNlcl9pZCI6OX0.qcxrA0ZKE0ocl2vHT-O8gh5u_JZJwpxtaKREh5dHsGM\"",
+						"type": "default",
+						"disabled": true
+					}
+				],
+				"url": {
+					"raw": "http://127.0.0.1:8000/logout/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"logout",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:8000/login/",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQwOTQ5Nzk5LCJpYXQiOjE3NDA4NjMzOTksImp0aSI6IjI5YzkwMjQwNGM5ZDRkMTE5ZTdiNTZkNGYyYzkxMmM1IiwidXNlcl9pZCI6OX0.qcxrA0ZKE0ocl2vHT-O8gh5u_JZJwpxtaKREh5dHsGM",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"disabled": true
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQwOTQ5Nzk5LCJpYXQiOjE3NDA4NjMzOTksImp0aSI6IjI5YzkwMjQwNGM5ZDRkMTE5ZTdiNTZkNGYyYzkxMmM1IiwidXNlcl9pZCI6OX0.qcxrA0ZKE0ocl2vHT-O8gh5u_JZJwpxtaKREh5dHsGM\"",
+						"type": "default",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"username\":\"ram07\",\"password\":\"1234\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/login/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"login",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:8000/login/",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQwOTQ5Nzk5LCJpYXQiOjE3NDA4NjMzOTksImp0aSI6IjI5YzkwMjQwNGM5ZDRkMTE5ZTdiNTZkNGYyYzkxMmM1IiwidXNlcl9pZCI6OX0.qcxrA0ZKE0ocl2vHT-O8gh5u_JZJwpxtaKREh5dHsGM",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"disabled": true
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQwOTQ5Nzk5LCJpYXQiOjE3NDA4NjMzOTksImp0aSI6IjI5YzkwMjQwNGM5ZDRkMTE5ZTdiNTZkNGYyYzkxMmM1IiwidXNlcl9pZCI6OX0.qcxrA0ZKE0ocl2vHT-O8gh5u_JZJwpxtaKREh5dHsGM\"",
+						"type": "default",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"refresh\": \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc0MTU0ODM1OCwiaWF0IjoxNzQwOTQzNTU4LCJqdGkiOiIzNzQ4MGUwMDg3MGU0ZDIyYmZjMWJkOTE0ZTIxZTEwYSIsInVzZXJfaWQiOjl9.7gTQHKxIlPM7F30rRl-gLD-Os91KP9FWyW-KpIeIpuU\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/login/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"login",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:8000/logout/",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQwOTQ5Nzk5LCJpYXQiOjE3NDA4NjMzOTksImp0aSI6IjI5YzkwMjQwNGM5ZDRkMTE5ZTdiNTZkNGYyYzkxMmM1IiwidXNlcl9pZCI6OX0.qcxrA0ZKE0ocl2vHT-O8gh5u_JZJwpxtaKREh5dHsGM",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"disabled": true
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQwOTQ5Nzk5LCJpYXQiOjE3NDA4NjMzOTksImp0aSI6IjI5YzkwMjQwNGM5ZDRkMTE5ZTdiNTZkNGYyYzkxMmM1IiwidXNlcl9pZCI6OX0.qcxrA0ZKE0ocl2vHT-O8gh5u_JZJwpxtaKREh5dHsGM\"",
+						"type": "default",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"refresh\": \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc0MTU0ODM1OCwiaWF0IjoxNzQwOTQzNTU4LCJqdGkiOiIzNzQ4MGUwMDg3MGU0ZDIyYmZjMWJkOTE0ZTIxZTEwYSIsInVzZXJfaWQiOjl9.7gTQHKxIlPM7F30rRl-gLD-Os91KP9FWyW-KpIeIpuU\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/logout/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"logout",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:8000/logout/",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQwOTQ5Nzk5LCJpYXQiOjE3NDA4NjMzOTksImp0aSI6IjI5YzkwMjQwNGM5ZDRkMTE5ZTdiNTZkNGYyYzkxMmM1IiwidXNlcl9pZCI6OX0.qcxrA0ZKE0ocl2vHT-O8gh5u_JZJwpxtaKREh5dHsGM",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"disabled": true
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQwOTQ5Nzk5LCJpYXQiOjE3NDA4NjMzOTksImp0aSI6IjI5YzkwMjQwNGM5ZDRkMTE5ZTdiNTZkNGYyYzkxMmM1IiwidXNlcl9pZCI6OX0.qcxrA0ZKE0ocl2vHT-O8gh5u_JZJwpxtaKREh5dHsGM\"",
+						"type": "default",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"refresh\": \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc0MTU0ODM1OCwiaWF0IjoxNzQwOTQzNTU4LCJqdGkiOiIzNzQ4MGUwMDg3MGU0ZDIyYmZjMWJkOTE0ZTIxZTEwYSIsInVzZXJfaWQiOjl9.7gTQHKxIlPM7F30rRl-gLD-Os91KP9FWyW-KpIeIpuU\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/logout/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"logout",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:8000/logout/",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQwOTQ5Nzk5LCJpYXQiOjE3NDA4NjMzOTksImp0aSI6IjI5YzkwMjQwNGM5ZDRkMTE5ZTdiNTZkNGYyYzkxMmM1IiwidXNlcl9pZCI6OX0.qcxrA0ZKE0ocl2vHT-O8gh5u_JZJwpxtaKREh5dHsGM",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"disabled": true
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQwOTQ5Nzk5LCJpYXQiOjE3NDA4NjMzOTksImp0aSI6IjI5YzkwMjQwNGM5ZDRkMTE5ZTdiNTZkNGYyYzkxMmM1IiwidXNlcl9pZCI6OX0.qcxrA0ZKE0ocl2vHT-O8gh5u_JZJwpxtaKREh5dHsGM\"",
+						"type": "default",
+						"disabled": true
+					}
+				],
+				"url": {
+					"raw": "http://127.0.0.1:8000/logout/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"logout",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:8000/logout/",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQwOTQ5Nzk5LCJpYXQiOjE3NDA4NjMzOTksImp0aSI6IjI5YzkwMjQwNGM5ZDRkMTE5ZTdiNTZkNGYyYzkxMmM1IiwidXNlcl9pZCI6OX0.qcxrA0ZKE0ocl2vHT-O8gh5u_JZJwpxtaKREh5dHsGM",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"disabled": true
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQwOTQ5Nzk5LCJpYXQiOjE3NDA4NjMzOTksImp0aSI6IjI5YzkwMjQwNGM5ZDRkMTE5ZTdiNTZkNGYyYzkxMmM1IiwidXNlcl9pZCI6OX0.qcxrA0ZKE0ocl2vHT-O8gh5u_JZJwpxtaKREh5dHsGM\"",
+						"type": "default",
+						"disabled": true
+					}
+				],
+				"url": {
+					"raw": "http://127.0.0.1:8000/logout/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"logout",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:8000/logout/",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQwOTQ5Nzk5LCJpYXQiOjE3NDA4NjMzOTksImp0aSI6IjI5YzkwMjQwNGM5ZDRkMTE5ZTdiNTZkNGYyYzkxMmM1IiwidXNlcl9pZCI6OX0.qcxrA0ZKE0ocl2vHT-O8gh5u_JZJwpxtaKREh5dHsGM",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"disabled": true
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQwOTQ5Nzk5LCJpYXQiOjE3NDA4NjMzOTksImp0aSI6IjI5YzkwMjQwNGM5ZDRkMTE5ZTdiNTZkNGYyYzkxMmM1IiwidXNlcl9pZCI6OX0.qcxrA0ZKE0ocl2vHT-O8gh5u_JZJwpxtaKREh5dHsGM\"",
+						"type": "default",
+						"disabled": true
+					}
+				],
+				"url": {
+					"raw": "http://127.0.0.1:8000/logout/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"logout",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:8000/logout/",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQwOTQ5Nzk5LCJpYXQiOjE3NDA4NjMzOTksImp0aSI6IjI5YzkwMjQwNGM5ZDRkMTE5ZTdiNTZkNGYyYzkxMmM1IiwidXNlcl9pZCI6OX0.qcxrA0ZKE0ocl2vHT-O8gh5u_JZJwpxtaKREh5dHsGM",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"disabled": true
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQwOTQ5Nzk5LCJpYXQiOjE3NDA4NjMzOTksImp0aSI6IjI5YzkwMjQwNGM5ZDRkMTE5ZTdiNTZkNGYyYzkxMmM1IiwidXNlcl9pZCI6OX0.qcxrA0ZKE0ocl2vHT-O8gh5u_JZJwpxtaKREh5dHsGM\"",
+						"type": "default",
+						"disabled": true
+					}
+				],
+				"url": {
+					"raw": "http://127.0.0.1:8000/logout/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"logout",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:8000/logout/",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQwOTQ5Nzk5LCJpYXQiOjE3NDA4NjMzOTksImp0aSI6IjI5YzkwMjQwNGM5ZDRkMTE5ZTdiNTZkNGYyYzkxMmM1IiwidXNlcl9pZCI6OX0.qcxrA0ZKE0ocl2vHT-O8gh5u_JZJwpxtaKREh5dHsGM\"",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"disabled": true
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQwOTQ5Nzk5LCJpYXQiOjE3NDA4NjMzOTksImp0aSI6IjI5YzkwMjQwNGM5ZDRkMTE5ZTdiNTZkNGYyYzkxMmM1IiwidXNlcl9pZCI6OX0.qcxrA0ZKE0ocl2vHT-O8gh5u_JZJwpxtaKREh5dHsGM\"",
+						"type": "default",
+						"disabled": true
+					}
+				],
+				"url": {
+					"raw": "http://127.0.0.1:8000/logout/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"logout",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:8000/logout/",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQwOTQ5Nzk5LCJpYXQiOjE3NDA4NjMzOTksImp0aSI6IjI5YzkwMjQwNGM5ZDRkMTE5ZTdiNTZkNGYyYzkxMmM1IiwidXNlcl9pZCI6OX0.qcxrA0ZKE0ocl2vHT-O8gh5u_JZJwpxtaKREh5dHsGM\"",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"disabled": true
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQwOTQ5Nzk5LCJpYXQiOjE3NDA4NjMzOTksImp0aSI6IjI5YzkwMjQwNGM5ZDRkMTE5ZTdiNTZkNGYyYzkxMmM1IiwidXNlcl9pZCI6OX0.qcxrA0ZKE0ocl2vHT-O8gh5u_JZJwpxtaKREh5dHsGM\"",
+						"type": "default"
+					}
+				],
+				"url": {
+					"raw": "http://127.0.0.1:8000/logout/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"logout",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:8000/logout/",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQwOTQ5Nzk5LCJpYXQiOjE3NDA4NjMzOTksImp0aSI6IjI5YzkwMjQwNGM5ZDRkMTE5ZTdiNTZkNGYyYzkxMmM1IiwidXNlcl9pZCI6OX0.qcxrA0ZKE0ocl2vHT-O8gh5u_JZJwpxtaKREh5dHsGM\"",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"disabled": true
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQwOTQ5Nzk5LCJpYXQiOjE3NDA4NjMzOTksImp0aSI6IjI5YzkwMjQwNGM5ZDRkMTE5ZTdiNTZkNGYyYzkxMmM1IiwidXNlcl9pZCI6OX0.qcxrA0ZKE0ocl2vHT-O8gh5u_JZJwpxtaKREh5dHsGM\"",
+						"type": "default"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"refresh\": \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc0MTU0ODM1OCwiaWF0IjoxNzQwOTQzNTU4LCJqdGkiOiIzNzQ4MGUwMDg3MGU0ZDIyYmZjMWJkOTE0ZTIxZTEwYSIsInVzZXJfaWQiOjl9.7gTQHKxIlPM7F30rRl-gLD-Os91KP9FWyW-KpIeIpuU\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/logout/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"logout",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:8000/logout/",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "\"Bearer \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQwOTQ5Nzk5LCJpYXQiOjE3NDA4NjMzOTksImp0aSI6IjI5YzkwMjQwNGM5ZDRkMTE5ZTdiNTZkNGYyYzkxMmM1IiwidXNlcl9pZCI6OX0.qcxrA0ZKE0ocl2vHT-O8gh5u_JZJwpxtaKREh5dHsGM\"\"",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"disabled": true
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQwOTQ5Nzk5LCJpYXQiOjE3NDA4NjMzOTksImp0aSI6IjI5YzkwMjQwNGM5ZDRkMTE5ZTdiNTZkNGYyYzkxMmM1IiwidXNlcl9pZCI6OX0.qcxrA0ZKE0ocl2vHT-O8gh5u_JZJwpxtaKREh5dHsGM\"",
+						"type": "default"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"refresh\": \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc0MTU0ODM1OCwiaWF0IjoxNzQwOTQzNTU4LCJqdGkiOiIzNzQ4MGUwMDg3MGU0ZDIyYmZjMWJkOTE0ZTIxZTEwYSIsInVzZXJfaWQiOjl9.7gTQHKxIlPM7F30rRl-gLD-Os91KP9FWyW-KpIeIpuU\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/logout/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"logout",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:8000/logout/",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "\"Bearer \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQwOTQ5Nzk5LCJpYXQiOjE3NDA4NjMzOTksImp0aSI6IjI5YzkwMjQwNGM5ZDRkMTE5ZTdiNTZkNGYyYzkxMmM1IiwidXNlcl9pZCI6OX0.qcxrA0ZKE0ocl2vHT-O8gh5u_JZJwpxtaKREh5dHsGM\"\"",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"disabled": true
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQwOTQ5Nzk5LCJpYXQiOjE3NDA4NjMzOTksImp0aSI6IjI5YzkwMjQwNGM5ZDRkMTE5ZTdiNTZkNGYyYzkxMmM1IiwidXNlcl9pZCI6OX0.qcxrA0ZKE0ocl2vHT-O8gh5u_JZJwpxtaKREh5dHsGM\"",
+						"type": "default"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"refresh\": \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc0MTU0ODM1OCwiaWF0IjoxNzQwOTQzNTU4LCJqdGkiOiIzNzQ4MGUwMDg3MGU0ZDIyYmZjMWJkOTE0ZTIxZTEwYSIsInVzZXJfaWQiOjl9.7gTQHKxIlPM7F30rRl-gLD-Os91KP9FWyW-KpIeIpuU\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/logout/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"logout",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:8000/admin/",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQwOTQ5Nzk5LCJpYXQiOjE3NDA4NjMzOTksImp0aSI6IjI5YzkwMjQwNGM5ZDRkMTE5ZTdiNTZkNGYyYzkxMmM1IiwidXNlcl9pZCI6OX0.qcxrA0ZKE0ocl2vHT-O8gh5u_JZJwpxtaKREh5dHsGM\"",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "Authorization",
+						"value": "\"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQwOTQ5Nzk5LCJpYXQiOjE3NDA4NjMzOTksImp0aSI6IjI5YzkwMjQwNGM5ZDRkMTE5ZTdiNTZkNGYyYzkxMmM1IiwidXNlcl9pZCI6OX0.qcxrA0ZKE0ocl2vHT-O8gh5u_JZJwpxtaKREh5dHsGM\"",
+						"type": "default",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"username\":\r\n        \"admin\",\r\n    \"password\": \r\n        \"admin\"\r\n    \r\n}"
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/admin/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"admin",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:8000/admin/",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQwOTQ5Nzk5LCJpYXQiOjE3NDA4NjMzOTksImp0aSI6IjI5YzkwMjQwNGM5ZDRkMTE5ZTdiNTZkNGYyYzkxMmM1IiwidXNlcl9pZCI6OX0.qcxrA0ZKE0ocl2vHT-O8gh5u_JZJwpxtaKREh5dHsGM\"",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "Authorization",
+						"value": "\"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQwOTQ5Nzk5LCJpYXQiOjE3NDA4NjMzOTksImp0aSI6IjI5YzkwMjQwNGM5ZDRkMTE5ZTdiNTZkNGYyYzkxMmM1IiwidXNlcl9pZCI6OX0.qcxrA0ZKE0ocl2vHT-O8gh5u_JZJwpxtaKREh5dHsGM\"",
+						"type": "default",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"username\":\r\n        \"ram07\",\r\n    \"password\": \r\n        \"1234\"\r\n    \r\n}"
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/admin/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"admin",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:8000/logout/",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQwOTQ5Nzk5LCJpYXQiOjE3NDA4NjMzOTksImp0aSI6IjI5YzkwMjQwNGM5ZDRkMTE5ZTdiNTZkNGYyYzkxMmM1IiwidXNlcl9pZCI6OX0.qcxrA0ZKE0ocl2vHT-O8gh5u_JZJwpxtaKREh5dHsGM\"",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "Authorization",
+						"value": "\"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQwOTQ5Nzk5LCJpYXQiOjE3NDA4NjMzOTksImp0aSI6IjI5YzkwMjQwNGM5ZDRkMTE5ZTdiNTZkNGYyYzkxMmM1IiwidXNlcl9pZCI6OX0.qcxrA0ZKE0ocl2vHT-O8gh5u_JZJwpxtaKREh5dHsGM\"",
+						"type": "default",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"username\":\r\n        \"ram07\",\r\n    \"password\": \r\n        \"1234\"\r\n    \r\n}"
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/logout/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"logout",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:8000/logout/",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQwOTQ5Nzk5LCJpYXQiOjE3NDA4NjMzOTksImp0aSI6IjI5YzkwMjQwNGM5ZDRkMTE5ZTdiNTZkNGYyYzkxMmM1IiwidXNlcl9pZCI6OX0.qcxrA0ZKE0ocl2vHT-O8gh5u_JZJwpxtaKREh5dHsGM",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "Authorization",
+						"value": "\"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQwOTQ5Nzk5LCJpYXQiOjE3NDA4NjMzOTksImp0aSI6IjI5YzkwMjQwNGM5ZDRkMTE5ZTdiNTZkNGYyYzkxMmM1IiwidXNlcl9pZCI6OX0.qcxrA0ZKE0ocl2vHT-O8gh5u_JZJwpxtaKREh5dHsGM\"",
+						"type": "default",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"username\":\r\n        \"ram07\",\r\n    \"password\": \r\n        \"1234\"\r\n    \r\n}"
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/logout/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"logout",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:8000/logout/",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "Authorization",
+						"value": "\"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQwOTQ5Nzk5LCJpYXQiOjE3NDA4NjMzOTksImp0aSI6IjI5YzkwMjQwNGM5ZDRkMTE5ZTdiNTZkNGYyYzkxMmM1IiwidXNlcl9pZCI6OX0.qcxrA0ZKE0ocl2vHT-O8gh5u_JZJwpxtaKREh5dHsGM\"",
+						"type": "default"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"username\":\r\n        \"ram07\",\r\n    \"password\": \r\n        \"1234\"\r\n    \r\n}"
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/logout/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"logout",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:8000/logout/",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "Authorization",
+						"value": "\"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQwOTQ5MzkyLCJpYXQiOjE3NDA4NjI5OTIsImp0aSI6IjEyYTc2MTRiYTdkMjQ3NWRiY2VhYTI4OTI0ZGI1MzEzIiwidXNlcl9pZCI6OX0.x6SnYMrbo7qtnZF2Noc8OoszWA0ZK6njeFvXPKjxB5k\"",
+						"type": "default"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"username\":\r\n        \"ram07\",\r\n    \"password\": \r\n        \"1234\"\r\n    \r\n}"
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/logout/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"logout",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:8000/login/",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "Authorization",
+						"value": "\"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQwOTQ5MzkyLCJpYXQiOjE3NDA4NjI5OTIsImp0aSI6IjEyYTc2MTRiYTdkMjQ3NWRiY2VhYTI4OTI0ZGI1MzEzIiwidXNlcl9pZCI6OX0.x6SnYMrbo7qtnZF2Noc8OoszWA0ZK6njeFvXPKjxB5k\"",
+						"type": "default"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"username\":\r\n        \"ram07\",\r\n    \"password\": \r\n        \"1234\"\r\n    \r\n}"
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/login/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"login",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:8000/login",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "Authorization",
+						"value": "\"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQwOTQ5MzkyLCJpYXQiOjE3NDA4NjI5OTIsImp0aSI6IjEyYTc2MTRiYTdkMjQ3NWRiY2VhYTI4OTI0ZGI1MzEzIiwidXNlcl9pZCI6OX0.x6SnYMrbo7qtnZF2Noc8OoszWA0ZK6njeFvXPKjxB5k\"",
+						"type": "default"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"username\":\r\n        \"ram07\",\r\n    \"password\": \r\n        \"1234\"\r\n    \r\n}"
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/login",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:8000/logout/",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "Authorization",
+						"value": "\"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQwOTQ5MzkyLCJpYXQiOjE3NDA4NjI5OTIsImp0aSI6IjEyYTc2MTRiYTdkMjQ3NWRiY2VhYTI4OTI0ZGI1MzEzIiwidXNlcl9pZCI6OX0.x6SnYMrbo7qtnZF2Noc8OoszWA0ZK6njeFvXPKjxB5k\"",
+						"type": "default"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"username\":\r\n        \"ram07\",\r\n    \"password\": \r\n        \"1234\"\r\n    \r\n}"
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/logout/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"logout",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:8000/logout/",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "Authorization",
+						"value": "\"bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQwOTQ5MzkyLCJpYXQiOjE3NDA4NjI5OTIsImp0aSI6IjEyYTc2MTRiYTdkMjQ3NWRiY2VhYTI4OTI0ZGI1MzEzIiwidXNlcl9pZCI6OX0.x6SnYMrbo7qtnZF2Noc8OoszWA0ZK6njeFvXPKjxB5k\"",
+						"type": "default"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"username\":\r\n        \"ram07\",\r\n    \"password\": \r\n        \"1234\"\r\n    \r\n}"
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/logout/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"logout",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:8000/logout/",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQwOTQ5MzkyLCJpYXQiOjE3NDA4NjI5OTIsImp0aSI6IjEyYTc2MTRiYTdkMjQ3NWRiY2VhYTI4OTI0ZGI1MzEzIiwidXNlcl9pZCI6OX0.x6SnYMrbo7qtnZF2Noc8OoszWA0ZK6njeFvXPKjxB5k\"",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "Authorization",
+						"value": "\"bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQwOTQ5MzkyLCJpYXQiOjE3NDA4NjI5OTIsImp0aSI6IjEyYTc2MTRiYTdkMjQ3NWRiY2VhYTI4OTI0ZGI1MzEzIiwidXNlcl9pZCI6OX0.x6SnYMrbo7qtnZF2Noc8OoszWA0ZK6njeFvXPKjxB5k\"",
+						"type": "default"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"username\":\r\n        \"ram07\",\r\n    \"password\": \r\n        \"1234\"\r\n    \r\n}"
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/logout/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"logout",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:8000/logout/",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQwOTQ5MzkyLCJpYXQiOjE3NDA4NjI5OTIsImp0aSI6IjEyYTc2MTRiYTdkMjQ3NWRiY2VhYTI4OTI0ZGI1MzEzIiwidXNlcl9pZCI6OX0.x6SnYMrbo7qtnZF2Noc8OoszWA0ZK6njeFvXPKjxB5k\"",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "Authorization",
+						"value": "\"bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQwOTQ5MzkyLCJpYXQiOjE3NDA4NjI5OTIsImp0aSI6IjEyYTc2MTRiYTdkMjQ3NWRiY2VhYTI4OTI0ZGI1MzEzIiwidXNlcl9pZCI6OX0.x6SnYMrbo7qtnZF2Noc8OoszWA0ZK6njeFvXPKjxB5k\"",
+						"type": "default"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"username\":\r\n        \"ram07\",\r\n    \"password\": \r\n        \"1234\"\r\n    \r\n}"
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/logout/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"logout",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:8000/logout/",
+			"request": {
+				"auth": {
+					"type": "jwt",
+					"jwt": [
+						{
+							"key": "header",
+							"value": "",
+							"type": "string"
+						},
+						{
+							"key": "addTokenTo",
+							"value": "header",
+							"type": "string"
+						},
+						{
+							"key": "secret",
+							"value": "",
+							"type": "string"
+						},
+						{
+							"key": "algorithm",
+							"value": "HS256",
+							"type": "string"
+						},
+						{
+							"key": "isSecretBase64Encoded",
+							"value": false,
+							"type": "boolean"
+						},
+						{
+							"key": "payload",
+							"value": "{}",
+							"type": "string"
+						},
+						{
+							"key": "headerPrefix",
+							"value": "Bearer",
+							"type": "string"
+						},
+						{
+							"key": "queryParamKey",
+							"value": "token",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"disabled": true
+					},
+					{
+						"key": "Authorization",
+						"value": "\"bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQwOTQ5MzkyLCJpYXQiOjE3NDA4NjI5OTIsImp0aSI6IjEyYTc2MTRiYTdkMjQ3NWRiY2VhYTI4OTI0ZGI1MzEzIiwidXNlcl9pZCI6OX0.x6SnYMrbo7qtnZF2Noc8OoszWA0ZK6njeFvXPKjxB5k\"",
+						"type": "default"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"username\":\r\n        \"ram07\",\r\n    \"password\": \r\n        \"1234\"\r\n    \r\n}"
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/logout/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"logout",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:8000/logout/",
+			"request": {
+				"auth": {
+					"type": "jwt",
+					"jwt": [
+						{
+							"key": "header",
+							"value": "",
+							"type": "string"
+						},
+						{
+							"key": "addTokenTo",
+							"value": "header",
+							"type": "string"
+						},
+						{
+							"key": "secret",
+							"value": "",
+							"type": "string"
+						},
+						{
+							"key": "algorithm",
+							"value": "HS256",
+							"type": "string"
+						},
+						{
+							"key": "isSecretBase64Encoded",
+							"value": false,
+							"type": "boolean"
+						},
+						{
+							"key": "payload",
+							"value": "{}",
+							"type": "string"
+						},
+						{
+							"key": "headerPrefix",
+							"value": "Bearer",
+							"type": "string"
+						},
+						{
+							"key": "queryParamKey",
+							"value": "token",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "Authorization",
+						"value": "\"bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQwOTQ5MzkyLCJpYXQiOjE3NDA4NjI5OTIsImp0aSI6IjEyYTc2MTRiYTdkMjQ3NWRiY2VhYTI4OTI0ZGI1MzEzIiwidXNlcl9pZCI6OX0.x6SnYMrbo7qtnZF2Noc8OoszWA0ZK6njeFvXPKjxB5k\"",
+						"type": "default"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"username\":\r\n        \"ram07\",\r\n    \"password\": \r\n        \"1234\"\r\n    \r\n}"
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/logout/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"logout",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:8000/logout/",
+			"request": {
+				"auth": {
+					"type": "jwt",
+					"jwt": [
+						{
+							"key": "header",
+							"value": "",
+							"type": "string"
+						},
+						{
+							"key": "addTokenTo",
+							"value": "header",
+							"type": "string"
+						},
+						{
+							"key": "secret",
+							"value": "",
+							"type": "string"
+						},
+						{
+							"key": "algorithm",
+							"value": "HS256",
+							"type": "string"
+						},
+						{
+							"key": "isSecretBase64Encoded",
+							"value": false,
+							"type": "boolean"
+						},
+						{
+							"key": "payload",
+							"value": "{}",
+							"type": "string"
+						},
+						{
+							"key": "headerPrefix",
+							"value": "Bearer",
+							"type": "string"
+						},
+						{
+							"key": "queryParamKey",
+							"value": "token",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "Authorization",
+						"value": "\"bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQwOTQ5MzkyLCJpYXQiOjE3NDA4NjI5OTIsImp0aSI6IjEyYTc2MTRiYTdkMjQ3NWRiY2VhYTI4OTI0ZGI1MzEzIiwidXNlcl9pZCI6OX0.x6SnYMrbo7qtnZF2Noc8OoszWA0ZK6njeFvXPKjxB5k\"",
+						"type": "default"
+					},
+					{
+						"key": "Authorization",
+						"value": "",
+						"type": "default",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"username\":\r\n        \"ram07\",\r\n    \"password\": \r\n        \"1234\"\r\n    \r\n}"
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/logout/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"logout",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:8000/logout/",
+			"request": {
+				"auth": {
+					"type": "jwt",
+					"jwt": [
+						{
+							"key": "header",
+							"value": "",
+							"type": "string"
+						},
+						{
+							"key": "addTokenTo",
+							"value": "header",
+							"type": "string"
+						},
+						{
+							"key": "secret",
+							"value": "",
+							"type": "string"
+						},
+						{
+							"key": "algorithm",
+							"value": "HS256",
+							"type": "string"
+						},
+						{
+							"key": "isSecretBase64Encoded",
+							"value": false,
+							"type": "boolean"
+						},
+						{
+							"key": "payload",
+							"value": "{}",
+							"type": "string"
+						},
+						{
+							"key": "headerPrefix",
+							"value": "Bearer",
+							"type": "string"
+						},
+						{
+							"key": "queryParamKey",
+							"value": "token",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "Authorization",
+						"value": "\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQwOTQ5MzkyLCJpYXQiOjE3NDA4NjI5OTIsImp0aSI6IjEyYTc2MTRiYTdkMjQ3NWRiY2VhYTI4OTI0ZGI1MzEzIiwidXNlcl9pZCI6OX0.x6SnYMrbo7qtnZF2Noc8OoszWA0ZK6njeFvXPKjxB5k\"",
+						"type": "default"
+					},
+					{
+						"key": "Authorization",
+						"value": "",
+						"type": "default",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"username\":\r\n        \"ram07\",\r\n    \"password\": \r\n        \"1234\"\r\n    \r\n}"
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/logout/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"logout",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:8000/login/",
+			"request": {
+				"auth": {
+					"type": "jwt",
+					"jwt": [
+						{
+							"key": "header",
+							"value": "",
+							"type": "string"
+						},
+						{
+							"key": "addTokenTo",
+							"value": "header",
+							"type": "string"
+						},
+						{
+							"key": "secret",
+							"value": "",
+							"type": "string"
+						},
+						{
+							"key": "algorithm",
+							"value": "HS256",
+							"type": "string"
+						},
+						{
+							"key": "isSecretBase64Encoded",
+							"value": false,
+							"type": "boolean"
+						},
+						{
+							"key": "payload",
+							"value": "{}",
+							"type": "string"
+						},
+						{
+							"key": "headerPrefix",
+							"value": "Bearer",
+							"type": "string"
+						},
+						{
+							"key": "queryParamKey",
+							"value": "token",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "Authorization",
+						"value": "\"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQwOTQ5MTAxLCJpYXQiOjE3NDA4NjI3MDEsImp0aSI6ImQ4YjNkN2Q3ZjcwNjRmODA5OTVjZmRkMDZmZDYxZTY0IiwidXNlcl9pZCI6OX0.Uwkde_R4PREni7FmNx8vS5WVXiEFwLVtqv3iZgpbDEE\"",
+						"type": "default"
+					},
+					{
+						"key": "Authorization",
+						"value": "",
+						"type": "default",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"username\":\r\n        \"ram07\",\r\n    \"password\": \r\n        \"1234\"\r\n    \r\n}"
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/login/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"login",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:8000/login/",
+			"request": {
+				"auth": {
+					"type": "jwt",
+					"jwt": [
+						{
+							"key": "header",
+							"value": "",
+							"type": "string"
+						},
+						{
+							"key": "addTokenTo",
+							"value": "header",
+							"type": "string"
+						},
+						{
+							"key": "secret",
+							"value": "",
+							"type": "string"
+						},
+						{
+							"key": "algorithm",
+							"value": "HS256",
+							"type": "string"
+						},
+						{
+							"key": "isSecretBase64Encoded",
+							"value": false,
+							"type": "boolean"
+						},
+						{
+							"key": "payload",
+							"value": "{}",
+							"type": "string"
+						},
+						{
+							"key": "headerPrefix",
+							"value": "Bearer",
+							"type": "string"
+						},
+						{
+							"key": "queryParamKey",
+							"value": "token",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "Authorization",
+						"value": "\"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQwOTQ5MTAxLCJpYXQiOjE3NDA4NjI3MDEsImp0aSI6ImQ4YjNkN2Q3ZjcwNjRmODA5OTVjZmRkMDZmZDYxZTY0IiwidXNlcl9pZCI6OX0.Uwkde_R4PREni7FmNx8vS5WVXiEFwLVtqv3iZgpbDEE\"",
+						"type": "default"
+					},
+					{
+						"key": "Authorization",
+						"value": "",
+						"type": "default",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"username\":\r\n        \"ram07,\r\n    \"password\": \r\n        \"1234\"\r\n    \r\n}"
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/login/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"login",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:8000/login/",
+			"request": {
+				"auth": {
+					"type": "jwt",
+					"jwt": [
+						{
+							"key": "header",
+							"value": "",
+							"type": "string"
+						},
+						{
+							"key": "addTokenTo",
+							"value": "header",
+							"type": "string"
+						},
+						{
+							"key": "secret",
+							"value": "",
+							"type": "string"
+						},
+						{
+							"key": "algorithm",
+							"value": "HS256",
+							"type": "string"
+						},
+						{
+							"key": "isSecretBase64Encoded",
+							"value": false,
+							"type": "boolean"
+						},
+						{
+							"key": "payload",
+							"value": "{}",
+							"type": "string"
+						},
+						{
+							"key": "headerPrefix",
+							"value": "Bearer",
+							"type": "string"
+						},
+						{
+							"key": "queryParamKey",
+							"value": "token",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "Authorization",
+						"value": "\"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQwOTQ5MTAxLCJpYXQiOjE3NDA4NjI3MDEsImp0aSI6ImQ4YjNkN2Q3ZjcwNjRmODA5OTVjZmRkMDZmZDYxZTY0IiwidXNlcl9pZCI6OX0.Uwkde_R4PREni7FmNx8vS5WVXiEFwLVtqv3iZgpbDEE\"",
+						"type": "default"
+					},
+					{
+						"key": "Authorization",
+						"value": "",
+						"type": "default",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"username\": [\r\n        \"ram07\"\r\n    ],\r\n    \"password\": [\r\n        \"1234\"\r\n    ]\r\n}"
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/login/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"login",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:8000/login/",
+			"request": {
+				"auth": {
+					"type": "jwt",
+					"jwt": [
+						{
+							"key": "header",
+							"value": "",
+							"type": "string"
+						},
+						{
+							"key": "addTokenTo",
+							"value": "header",
+							"type": "string"
+						},
+						{
+							"key": "secret",
+							"value": "",
+							"type": "string"
+						},
+						{
+							"key": "algorithm",
+							"value": "HS256",
+							"type": "string"
+						},
+						{
+							"key": "isSecretBase64Encoded",
+							"value": false,
+							"type": "boolean"
+						},
+						{
+							"key": "payload",
+							"value": "{}",
+							"type": "string"
+						},
+						{
+							"key": "headerPrefix",
+							"value": "Bearer",
+							"type": "string"
+						},
+						{
+							"key": "queryParamKey",
+							"value": "token",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "Authorization",
+						"value": "\"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQwOTQ5MTAxLCJpYXQiOjE3NDA4NjI3MDEsImp0aSI6ImQ4YjNkN2Q3ZjcwNjRmODA5OTVjZmRkMDZmZDYxZTY0IiwidXNlcl9pZCI6OX0.Uwkde_R4PREni7FmNx8vS5WVXiEFwLVtqv3iZgpbDEE\"",
+						"type": "default"
+					},
+					{
+						"key": "Authorization",
+						"value": "",
+						"type": "default",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"email\": \"test@example.com\"}"
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/login/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"login",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:8000/logout/",
+			"request": {
+				"auth": {
+					"type": "jwt",
+					"jwt": [
+						{
+							"key": "header",
+							"value": "",
+							"type": "string"
+						},
+						{
+							"key": "addTokenTo",
+							"value": "header",
+							"type": "string"
+						},
+						{
+							"key": "secret",
+							"value": "",
+							"type": "string"
+						},
+						{
+							"key": "algorithm",
+							"value": "HS256",
+							"type": "string"
+						},
+						{
+							"key": "isSecretBase64Encoded",
+							"value": false,
+							"type": "boolean"
+						},
+						{
+							"key": "payload",
+							"value": "{}",
+							"type": "string"
+						},
+						{
+							"key": "headerPrefix",
+							"value": "Bearer",
+							"type": "string"
+						},
+						{
+							"key": "queryParamKey",
+							"value": "token",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "Authorization",
+						"value": "\"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQwOTQ5MTAxLCJpYXQiOjE3NDA4NjI3MDEsImp0aSI6ImQ4YjNkN2Q3ZjcwNjRmODA5OTVjZmRkMDZmZDYxZTY0IiwidXNlcl9pZCI6OX0.Uwkde_R4PREni7FmNx8vS5WVXiEFwLVtqv3iZgpbDEE\"",
+						"type": "default"
+					},
+					{
+						"key": "Authorization",
+						"value": "",
+						"type": "default",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"email\": \"test@example.com\"}"
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/logout/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"logout",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:8000/logout/",
+			"request": {
+				"auth": {
+					"type": "jwt",
+					"jwt": [
+						{
+							"key": "header",
+							"value": "",
+							"type": "string"
+						},
+						{
+							"key": "addTokenTo",
+							"value": "header",
+							"type": "string"
+						},
+						{
+							"key": "secret",
+							"value": "",
+							"type": "string"
+						},
+						{
+							"key": "algorithm",
+							"value": "HS256",
+							"type": "string"
+						},
+						{
+							"key": "isSecretBase64Encoded",
+							"value": false,
+							"type": "boolean"
+						},
+						{
+							"key": "payload",
+							"value": "{}",
+							"type": "string"
+						},
+						{
+							"key": "headerPrefix",
+							"value": "Bearer",
+							"type": "string"
+						},
+						{
+							"key": "queryParamKey",
+							"value": "token",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "Authorization",
+						"value": "\"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQwOTQ5MTAxLCJpYXQiOjE3NDA4NjI3MDEsImp0aSI6ImQ4YjNkN2Q3ZjcwNjRmODA5OTVjZmRkMDZmZDYxZTY0IiwidXNlcl9pZCI6OX0.Uwkde_R4PREni7FmNx8vS5WVXiEFwLVtqv3iZgpbDEE\"",
+						"type": "default"
+					},
+					{
+						"key": "Authorization",
+						"value": "",
+						"type": "default",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"email\": \"test@example.com\"}"
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/logout/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"logout",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:8000/logout/",
+			"request": {
+				"auth": {
+					"type": "jwt",
+					"jwt": [
+						{
+							"key": "header",
+							"value": "",
+							"type": "string"
+						},
+						{
+							"key": "addTokenTo",
+							"value": "header",
+							"type": "string"
+						},
+						{
+							"key": "secret",
+							"value": "",
+							"type": "string"
+						},
+						{
+							"key": "algorithm",
+							"value": "HS256",
+							"type": "string"
+						},
+						{
+							"key": "isSecretBase64Encoded",
+							"value": false,
+							"type": "boolean"
+						},
+						{
+							"key": "payload",
+							"value": "{}",
+							"type": "string"
+						},
+						{
+							"key": "headerPrefix",
+							"value": "Bearer",
+							"type": "string"
+						},
+						{
+							"key": "queryParamKey",
+							"value": "token",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQwOTQ5MTAxLCJpYXQiOjE3NDA4NjI3MDEsImp0aSI6ImQ4YjNkN2Q3ZjcwNjRmODA5OTVjZmRkMDZmZDYxZTY0IiwidXNlcl9pZCI6OX0.Uwkde_R4PREni7FmNx8vS5WVXiEFwLVtqv3iZgpbDEE",
+						"type": "default"
+					},
+					{
+						"key": "Authorization",
+						"value": "",
+						"type": "default",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"email\": \"test@example.com\"}"
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/logout/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"logout",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:8000/logout/",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "jwt",
+					"jwt": [
+						{
+							"key": "header",
+							"value": "",
+							"type": "string"
+						},
+						{
+							"key": "addTokenTo",
+							"value": "header",
+							"type": "string"
+						},
+						{
+							"key": "secret",
+							"value": "",
+							"type": "string"
+						},
+						{
+							"key": "algorithm",
+							"value": "HS256",
+							"type": "string"
+						},
+						{
+							"key": "isSecretBase64Encoded",
+							"value": false,
+							"type": "boolean"
+						},
+						{
+							"key": "payload",
+							"value": "{}",
+							"type": "string"
+						},
+						{
+							"key": "headerPrefix",
+							"value": "Bearer",
+							"type": "string"
+						},
+						{
+							"key": "queryParamKey",
+							"value": "token",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQwOTQ5MTAxLCJpYXQiOjE3NDA4NjI3MDEsImp0aSI6ImQ4YjNkN2Q3ZjcwNjRmODA5OTVjZmRkMDZmZDYxZTY0IiwidXNlcl9pZCI6OX0.Uwkde_R4PREni7FmNx8vS5WVXiEFwLVtqv3iZgpbDEE",
+						"type": "default"
+					},
+					{
+						"key": "Authorization",
+						"value": "",
+						"type": "default",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"email\": \"test@example.com\"}"
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/logout/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"logout",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:8000/logout/",
+			"request": {
+				"auth": {
+					"type": "jwt",
+					"jwt": [
+						{
+							"key": "header",
+							"value": "",
+							"type": "string"
+						},
+						{
+							"key": "addTokenTo",
+							"value": "header",
+							"type": "string"
+						},
+						{
+							"key": "secret",
+							"value": "",
+							"type": "string"
+						},
+						{
+							"key": "algorithm",
+							"value": "HS256",
+							"type": "string"
+						},
+						{
+							"key": "isSecretBase64Encoded",
+							"value": false,
+							"type": "boolean"
+						},
+						{
+							"key": "payload",
+							"value": "{}",
+							"type": "string"
+						},
+						{
+							"key": "headerPrefix",
+							"value": "Bearer",
+							"type": "string"
+						},
+						{
+							"key": "queryParamKey",
+							"value": "token",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQwOTQ5MTAxLCJpYXQiOjE3NDA4NjI3MDEsImp0aSI6ImQ4YjNkN2Q3ZjcwNjRmODA5OTVjZmRkMDZmZDYxZTY0IiwidXNlcl9pZCI6OX0.Uwkde_R4PREni7FmNx8vS5WVXiEFwLVtqv3iZgpbDEE",
+						"type": "default"
+					},
+					{
+						"key": "Authorization",
+						"value": "",
+						"type": "default",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"email\": \"test@example.com\"}"
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/logout/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"logout",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:8000/logout/",
+			"request": {
+				"auth": {
+					"type": "jwt",
+					"jwt": [
+						{
+							"key": "header",
+							"value": "",
+							"type": "string"
+						},
+						{
+							"key": "addTokenTo",
+							"value": "header",
+							"type": "string"
+						},
+						{
+							"key": "secret",
+							"value": "",
+							"type": "string"
+						},
+						{
+							"key": "algorithm",
+							"value": "HS256",
+							"type": "string"
+						},
+						{
+							"key": "isSecretBase64Encoded",
+							"value": false,
+							"type": "boolean"
+						},
+						{
+							"key": "payload",
+							"value": "{}",
+							"type": "string"
+						},
+						{
+							"key": "headerPrefix",
+							"value": "Bearer",
+							"type": "string"
+						},
+						{
+							"key": "queryParamKey",
+							"value": "token",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQwOTQ5MTAxLCJpYXQiOjE3NDA4NjI3MDEsImp0aSI6ImQ4YjNkN2Q3ZjcwNjRmODA5OTVjZmRkMDZmZDYxZTY0IiwidXNlcl9pZCI6OX0.Uwkde_R4PREni7FmNx8vS5WVXiEFwLVtqv3iZgpbDEE\"",
+						"type": "default"
+					},
+					{
+						"key": "Authorization",
+						"value": "",
+						"type": "default",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"email\": \"test@example.com\"}"
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/logout/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"logout",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:8000/logout/",
+			"request": {
+				"auth": {
+					"type": "jwt",
+					"jwt": [
+						{
+							"key": "header",
+							"value": "",
+							"type": "string"
+						},
+						{
+							"key": "addTokenTo",
+							"value": "header",
+							"type": "string"
+						},
+						{
+							"key": "secret",
+							"value": "",
+							"type": "string"
+						},
+						{
+							"key": "algorithm",
+							"value": "HS256",
+							"type": "string"
+						},
+						{
+							"key": "isSecretBase64Encoded",
+							"value": false,
+							"type": "boolean"
+						},
+						{
+							"key": "payload",
+							"value": "{}",
+							"type": "string"
+						},
+						{
+							"key": "headerPrefix",
+							"value": "Bearer",
+							"type": "string"
+						},
+						{
+							"key": "queryParamKey",
+							"value": "token",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQwOTQ5MTAxLCJpYXQiOjE3NDA4NjI3MDEsImp0aSI6ImQ4YjNkN2Q3ZjcwNjRmODA5OTVjZmRkMDZmZDYxZTY0IiwidXNlcl9pZCI6OX0.Uwkde_R4PREni7FmNx8vS5WVXiEFwLVtqv3iZgpbDEE",
+						"type": "default"
+					},
+					{
+						"key": "Authorization",
+						"value": "",
+						"type": "default",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"email\": \"test@example.com\"}"
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/logout/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"logout",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:8000/logout/",
+			"request": {
+				"auth": {
+					"type": "jwt",
+					"jwt": [
+						{
+							"key": "header",
+							"value": "",
+							"type": "string"
+						},
+						{
+							"key": "addTokenTo",
+							"value": "header",
+							"type": "string"
+						},
+						{
+							"key": "secret",
+							"value": "",
+							"type": "string"
+						},
+						{
+							"key": "algorithm",
+							"value": "HS256",
+							"type": "string"
+						},
+						{
+							"key": "isSecretBase64Encoded",
+							"value": false,
+							"type": "boolean"
+						},
+						{
+							"key": "payload",
+							"value": "{}",
+							"type": "string"
+						},
+						{
+							"key": "headerPrefix",
+							"value": "Bearer",
+							"type": "string"
+						},
+						{
+							"key": "queryParamKey",
+							"value": "token",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQwOTQ4NDk2LCJpYXQiOjE3NDA4NjIwOTYsImp0aSI6ImJlYzFhMzE2MmU3NDQxMTU4YWZhZjU0MDMxZWM5OWE4IiwidXNlcl9pZCI6OX0.t6iIjvZg1Z2A0oRXE0K2a3GN0-ZZGapGzaHYbYKozq8",
+						"type": "default"
+					},
+					{
+						"key": "Authorization",
+						"value": "",
+						"type": "default",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"email\": \"test@example.com\"}"
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/logout/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"logout",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:5000/send-otp",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"email\": \"test@example.com\"}"
+				},
+				"url": {
+					"raw": "http://localhost:5000/send-otp",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"send-otp"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:5000/send-otp",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"email\": \"test@example.com\"}"
+				},
+				"url": {
+					"raw": "http://localhost:5000/send-otp",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"send-otp"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
