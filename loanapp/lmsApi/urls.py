@@ -16,9 +16,11 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path,include
+from .views import LoanListView,LoanCreateView,LoanForeclosureView
 
 urlpatterns = [
-    path('admin/', admin.site.urls),
-    path('',include('userauth.urls')),
-    path('api/', include('lmsApi.urls')),
+    path('loans/',LoanCreateView.as_view(),name="add_loan"),
+    path('listloans/',LoanListView.as_view(),name="list_loans"),
+    path('loans/<str:loan_id>/foreclose',LoanForeclosureView.as_view(),name="foreclose_loan")
+
 ]
